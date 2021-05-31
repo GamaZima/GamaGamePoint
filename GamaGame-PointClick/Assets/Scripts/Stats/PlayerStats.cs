@@ -26,5 +26,12 @@ public class PlayerStats : CharacterStats
         }
     }
 
+    public override void Die()
+    {
+        Debug.Log("Override Die");
+        base.Die();
+        // Kill the player
+        PlayerManager.instance.KillPlayer();
+    }
 
 }

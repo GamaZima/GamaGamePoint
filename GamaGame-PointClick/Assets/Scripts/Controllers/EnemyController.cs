@@ -10,13 +10,15 @@ public class EnemyController : MonoBehaviour
 
     Transform target;
     NavMeshAgent agent;
+    CharacterCombat combat;
 
 
     // Start is called before the first frame update
     void Start()
     {
         target = PlayerManager.instance.player.transform;
-        agent = GetComponent<NavMeshAgent>(); 
+        agent = GetComponent<NavMeshAgent>();
+        combat = GetComponent<CharacterCombat>();
 
     }
 
@@ -27,16 +29,28 @@ public class EnemyController : MonoBehaviour
 
         if (distance <= lookRadius)
         {
-            agent.SetDestination(target.position);
+            agent.SetDestination(target.position); // Enemy follows target(player)
 
             if (distance <= agent.stoppingDistance)
             {
-                // Attack the target
-                // Face the target
+                CharacterStats targetStats = target.GetComponent<CharacterStats>();
+                if (targetStats != null)
+                {
+                    // Enemy is attacking
+                    combat.Attack(targetStats);
+                }
+                FaceTarget();
             }
 
         }
 
+    }
+
+    void FaceTarget()
+    {
+        Vector3 direction = (target.position - transform.position).normalized;
+        Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
+        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f);
     }
 
     private void OnDrawGizmosSelected()
