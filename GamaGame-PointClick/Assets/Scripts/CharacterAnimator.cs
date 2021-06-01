@@ -15,7 +15,7 @@ public class CharacterAnimator : MonoBehaviour
     NavMeshAgent agent;
     protected Animator animator;
     protected CharacterCombat combat;
-    protected AnimatorOverrideController overrideController;
+    public AnimatorOverrideController overrideController;
 
     // Start is called before the first frame update
     protected virtual void Start()
@@ -24,7 +24,11 @@ public class CharacterAnimator : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
         combat = GetComponent<CharacterCombat>();
 
-        overrideController = new AnimatorOverrideController(animator.runtimeAnimatorController);
+        if (overrideController == null)
+        {
+            overrideController = new AnimatorOverrideController(animator.runtimeAnimatorController);
+        }
+        
         animator.runtimeAnimatorController = overrideController;
 
         currentAttackAnimSet = defaultAttackAnimSet;

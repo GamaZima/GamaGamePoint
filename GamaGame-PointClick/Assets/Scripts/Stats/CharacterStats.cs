@@ -9,28 +9,43 @@ public class CharacterStats : MonoBehaviour
     public Stat damage;
     public Stat armor;
 
+    public event System.Action<int, int> OnHealthChanged;
 
+    // Set current health to max health
+    // when starting the game
     private void Awake()
     {
         currentHealth = maxHealth;
     }
 
+    
     private void Update()
     {
+        // Takes damage on player when T is pressed
+        // for test purposes
         if (Input.GetKeyDown(KeyCode.T))
         {
             TakeDamage(10);
         }
     }
 
+    // Damage the character
     public void TakeDamage (int damage)
     {
-        damage -= armor.GetValue();                     // Considers Armor value before damage
-        damage = Mathf.Clamp(damage, 0, int.MaxValue);  // Makes sure if Armor > Damage, it won't heal
+        // Subtract the armor value
+        damage -= armor.GetValue();
+        damage = Mathf.Clamp(damage, 0, int.MaxValue);
 
-        currentHealth -= damage;                        // Takes damage
+        // Damage the character
+        currentHealth -= damage;
         Debug.Log(transform.name + " takes " + damage + " damage.");
 
+        if (OnHealthChanged != null)
+        {
+            OnHealthChanged(maxHealth, currentHealth);
+        }
+
+        // If health reaches zero
         if (currentHealth <= 0)
         {
             Die();
