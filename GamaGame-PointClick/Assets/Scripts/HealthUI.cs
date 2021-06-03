@@ -9,7 +9,7 @@ public class HealthUI : MonoBehaviour
 
     public GameObject uiPrefab;
     public Transform target;
-    float visibleTime = 5;
+    float visibleTime = 10;
 
     float lastMadeVisibleTime;
 
@@ -20,7 +20,7 @@ public class HealthUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        cam = Camera.main.transform;
+        cam = Camera.main.transform;        
 
         foreach (Canvas c in FindObjectsOfType<Canvas>())
         {
@@ -57,6 +57,8 @@ public class HealthUI : MonoBehaviour
         if (ui != null)
         {
             ui.position = target.position;
+
+            // Inverts the Health Bar image
             ui.forward = -cam.forward;
 
             if (Time.time - lastMadeVisibleTime > visibleTime)

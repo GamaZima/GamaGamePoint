@@ -1,12 +1,16 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerStats : CharacterStats
 {
+    private Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponentInChildren<Animator>();
         EquipmentManager.instance.onEquipmentChanged += OnEquipmentChanged;
     }
 
@@ -26,12 +30,26 @@ public class PlayerStats : CharacterStats
         }
     }
 
-    public override void Die()
+    public override void TookDamage()
     {
-        Debug.Log("Override Die");
-        base.Die();
-        // Kill the player
-        PlayerManager.instance.KillPlayer();
+        base.TookDamage();
+        anim.SetTrigger("tookDamage");
     }
 
+    public override void Die()
+    {
+        base.Die();
+        StartCoroutine (deathRoutine());
+    }
+
+    public IEnumerator deathRoutine()
+    {
+        GetComponent<PlayerController>().enabled = false;
+        anim.SetTrigger("die");
+        yield return new WaitForSeconds(5);
+
+        // Kill the player, restarts scene in PlayerManager class
+        PlayerManager.instance.KillPlayer();
+        GetComponent<PlayerController>().enabled = true;
+    }
 }

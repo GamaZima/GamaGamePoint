@@ -3,11 +3,8 @@
 public class InventoryUI : MonoBehaviour
     
 {
-
     public Transform ItemsParent;
     public GameObject inventoryUI;
-
-
 
     Inventory inventory;
 
@@ -20,7 +17,6 @@ public class InventoryUI : MonoBehaviour
         inventory.onItemChangedCallback += UpdateUI;
 
         slots = ItemsParent.GetComponentsInChildren<InventorySlot>();
-
     }
 
     // Update is called once per frame

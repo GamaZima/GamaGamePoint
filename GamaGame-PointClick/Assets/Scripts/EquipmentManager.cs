@@ -24,12 +24,10 @@ public class EquipmentManager : MonoBehaviour
 
     private void Start()
     {
-
         inventory = Inventory.instance;
 
         int numSlots = System.Enum.GetNames(typeof(EquipmentSlot)).Length;
         currentEquipment = new Equipment[numSlots];
-
     }
 
     public void Equip (Equipment newItem)
@@ -49,10 +47,11 @@ public class EquipmentManager : MonoBehaviour
             onEquipmentChanged.Invoke(newItem, oldItem);
         }
 
-
         currentEquipment[slotIndex] = newItem;
+
     }
 
+  
 
     public void Unequip (int slotIndex)
     {

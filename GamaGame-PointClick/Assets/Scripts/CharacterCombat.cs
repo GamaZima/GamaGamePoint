@@ -43,7 +43,7 @@ public class CharacterCombat : MonoBehaviour
             if (OnAttack != null)
                 OnAttack();
 
-            attackCooldown = 1f / attackSpeed;
+            attackCooldown = 2f / attackSpeed;
             InCombat = true;
             lastAttackTime = Time.time;
         }

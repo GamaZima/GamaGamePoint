@@ -22,9 +22,10 @@ public class PlayerAnimator : CharacterAnimator
     void OnEquipmentChanged(Equipment newItem, Equipment oldItem)
     {
         Debug.Log("Equipment changed");
-        if (newItem != null && newItem.equipSlot == EquipmentSlot.Consumable)  // Checks with slot the item is in (reference on Equipment class)
+        if (newItem != null && newItem.equipSlot == EquipmentSlot.Consumable)  // Checks which slot the item is in (reference on Equipment class)
         {
             // Add drinking potion animation
+            
             Debug.Log("Player is using the amulet");
 
             if (weaponAnimationsDict.ContainsKey(newItem))

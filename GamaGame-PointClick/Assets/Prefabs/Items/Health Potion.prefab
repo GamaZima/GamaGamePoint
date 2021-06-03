@@ -112,7 +112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 2
   interactionTransform: {fileID: 8419530083612653496}
-  item: {fileID: 11400000, guid: eae8d161c4b0e40fb9babd9f1b53b268, type: 2}
+  item: {fileID: 11400000, guid: 9fbfe0b70033b46f1a6755bc33bcc023, type: 2}
 --- !u!1 &8419530084664356405
 GameObject:
   m_ObjectHideFlags: 0
