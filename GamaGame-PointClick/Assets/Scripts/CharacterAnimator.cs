@@ -33,7 +33,6 @@ public class CharacterAnimator : MonoBehaviour
 
         currentAttackAnimSet = defaultAttackAnimSet;
         combat.OnAttack += OnAttack;
-
     }
 
     // Update is called once per frame

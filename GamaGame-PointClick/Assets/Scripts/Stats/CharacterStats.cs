@@ -36,7 +36,7 @@ public class CharacterStats : MonoBehaviour
         // Takes damage on player when T is pressed
         if (Input.GetKeyDown(KeyCode.T))
         {
-            TakeDamage(10);
+            TakeDamage(1);
         }
 
         //if(Input.GetKeyDown(KeyCode.Y)) { Heal(5); }        

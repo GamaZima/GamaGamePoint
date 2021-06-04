@@ -22,22 +22,19 @@ public class PlayerAnimator : CharacterAnimator
     void OnEquipmentChanged(Equipment newItem, Equipment oldItem)
     {
         Debug.Log("Equipment changed");
-        if (newItem != null && newItem.equipSlot == EquipmentSlot.Consumable)  // Checks which slot the item is in (reference on Equipment class)
+        if (newItem != null && newItem.equipSlot == EquipmentSlot.Weapon)  // Checks which slot the item is in (reference on Equipment class)
         {
-            // Add drinking potion animation
-            
-            Debug.Log("Player is using the amulet");
-
+           
+            // Changes holding hands on model depending on weapon type
             if (weaponAnimationsDict.ContainsKey(newItem))
             {
                 currentAttackAnimSet = weaponAnimationsDict[newItem];
             }
         }
-        else if (newItem == null && oldItem != null && oldItem.equipSlot == EquipmentSlot.Consumable)
+        else if (newItem == null && oldItem != null && oldItem.equipSlot == EquipmentSlot.Weapon)
         {
             currentAttackAnimSet = defaultAttackAnimSet;
 
-            Debug.Log("Player is not using the amulet");
             // If consumable is unequiped, animation goes back to default
         }
 

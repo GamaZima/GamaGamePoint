@@ -33,7 +33,18 @@ public class PlayerStats : CharacterStats
     public override void TookDamage()
     {
         base.TookDamage();
+        StartCoroutine(DamageRoutine());
+    }
+
+    private IEnumerator DamageRoutine()
+    {
+        Debug.Log("DamageRoutine started");
+        anim.SetLayerWeight(anim.GetLayerIndex("Damage Layer"), 1);
         anim.SetTrigger("tookDamage");
+
+        yield return new WaitForSeconds(0.8f);
+        anim.SetLayerWeight(anim.GetLayerIndex("Damage Layer"), 0);
+
     }
 
     public override void Die()
