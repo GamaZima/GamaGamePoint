@@ -44,11 +44,7 @@ public class BasicInkExample : MonoBehaviour {
 
 	}
 
-	void Endstory()
-    {
-		RemoveChildren();
-	}
-
+	
     // This is the main function called every time the story changes. It does a few things:
     // Destroys all the old content and choices.
     // Continues over all the lines of text, then displays all the choices. If there are no choices, the story is finished!
@@ -118,9 +114,15 @@ public class BasicInkExample : MonoBehaviour {
 				player.enabled = true;
 			});
 		}
+
+		void Endstory()
+		{
+			RemoveChildren();
+		}
+
 	}
 
-    private void PlayClip(string clipName)
+	private void PlayClip(string clipName)
     {
         if (_clips.TryGetValue(clipName.ToLower(), out var clip))
         {

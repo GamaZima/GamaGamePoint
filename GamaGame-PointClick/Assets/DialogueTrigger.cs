@@ -5,7 +5,7 @@ using UnityEngine;
 public class DialogueTrigger : MonoBehaviour
 {
     Transform target;
-    Transform agent;
+    //Transform agent;
 
 
     private void OnTriggerEnter(Collider other)
@@ -27,12 +27,11 @@ public class DialogueTrigger : MonoBehaviour
     void FaceTarget()
     {
         target = PlayerManager.instance.player.transform;
-        agent = GetComponentInParent<Transform>();
 
         Debug.Log("Facing target");
-        Vector3 direction = (target.position - agent.position).normalized;
+        Vector3 direction = (target.position - transform.position).normalized;
         Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
-        agent.rotation = Quaternion.Slerp(agent.rotation, lookRotation, Time.deltaTime * 5f);
+        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f);
     }
 
 

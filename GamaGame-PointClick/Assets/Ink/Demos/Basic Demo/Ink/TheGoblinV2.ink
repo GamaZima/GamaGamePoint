@@ -2,10 +2,10 @@ Hello, my friend! What a pleasant surprise to see you!? #Clip.HelloMyFriendWhatA
 
 Hello, Goblin. A bird has told me I should speak to you. #Clip.HelloGoblinABirdToldMeIShouldSpeakToYou
 
-A Bird?! That's weird, huh?! #Clip.ABirdThatsWeird
-Well.. Anyhows... poetry or bigotry? #Clip.AnyhowsPoetryOrBigotry
+A Bird?! That's weird, huh?! #Clip.ABirdThatsWeird 
+Well.. Anyhows... poetry or bigotry? #Clip.AnyhowsPoetryOrBigotry #Camera.GoblinZoomCam
   
- * I'd love to hear some poetry from a Goblin. #Clip.IdLoveToHearSomePoetryFromAGoblin
+ * I'd love to hear some poetry from a Goblin. #Clip.IdLoveToHearSomePoetryFromAGoblin #Camera.SideCam
  
   The summer grasses.
   All that remains 
