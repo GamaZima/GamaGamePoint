@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour
 {
-    public Canvas myCanvas;
+    Transform target;
+    Transform agent;
+
+
     private void OnTriggerEnter(Collider other)
-
     {
-
         if (other.tag == "Player")
         {
-            myCanvas.enabled = true;
-            //Cursor.lockState = CursorLockMode.None;
+            Debug.Log("Player entered dialogue trigger.");
+            transform.GetChild(0).gameObject.SetActive(true);
+            FaceTarget();
         }
 
         else
@@ -22,13 +24,23 @@ public class DialogueTrigger : MonoBehaviour
 
     }
 
+    void FaceTarget()
+    {
+        target = PlayerManager.instance.player.transform;
+        agent = GetComponentInParent<Transform>();
+
+        Debug.Log("Facing target");
+        Vector3 direction = (target.position - agent.position).normalized;
+        Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
+        agent.rotation = Quaternion.Slerp(agent.rotation, lookRotation, Time.deltaTime * 5f);
+    }
+
+
     private void OnTriggerExit(Collider other)
     {
         if (other.tag == "Player")
         {
-            myCanvas.enabled = false;
-            //Cursor.lockState = CursorLockMode.None;
-            Destroy(gameObject);
+            transform.GetChild(0).gameObject.SetActive(false);
         }
 
         else

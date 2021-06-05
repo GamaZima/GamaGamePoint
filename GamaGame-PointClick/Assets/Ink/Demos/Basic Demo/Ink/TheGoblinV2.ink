@@ -1,11 +1,11 @@
-Hello, my friend! What a pleasant surprise to see you!? #Clip.HelloMyFriendWhatAPleasantSurpriseToSeeYou #Camera.KnightCam
+Hello, my friend! What a pleasant surprise to see you!? #Clip.HelloMyFriendWhatAPleasantSurpriseToSeeYou #Camera.GoblinCam
 
-Hello, Goblin. A bird has told me I should speak to you. #Clip.HelloGoblinABirdToldMeIShouldSpeakToYou #Camera.Knight
+Hello, Goblin. A bird has told me I should speak to you. #Clip.HelloGoblinABirdToldMeIShouldSpeakToYou
 
-A Bird?! That's weird, huh?! #Clip.ABirdThatsWeird #Camera.Knight
-Well.. Anyhows... poetry or bigotry? #Clip.AnyhowsPoetryOrBigotry #Camera.GoblinCam
+A Bird?! That's weird, huh?! #Clip.ABirdThatsWeird
+Well.. Anyhows... poetry or bigotry? #Clip.AnyhowsPoetryOrBigotry
   
- * I'd love to hear some poetry from a Goblin. #Clip.IdLoveToHearSomePoetryFromAGoblin #Camera.KnightCam
+ * I'd love to hear some poetry from a Goblin. #Clip.IdLoveToHearSomePoetryFromAGoblin
  
   The summer grasses.
   All that remains 
@@ -15,16 +15,16 @@ Well.. Anyhows... poetry or bigotry? #Clip.AnyhowsPoetryOrBigotry #Camera.Goblin
   
     * * Well.. That was something. Can I help you with anything else? #Clip.WellThatWasSomethingCanIHelp
 
- * Poetry? You must be out of your mind! #Clip.PoetryYouMustBeOutOfYourMind #Camera.KnightCam
+ * Poetry? You must be out of your mind! #Clip.PoetryYouMustBeOutOfYourMind 
  
- Ok! Ok! Jes.. Firsts things first. #Clip.OkOkJessFirstThingsFirst #Camera.KnightCam 
+ Ok! Ok! Jes.. Firsts things first. #Clip.OkOkJessFirstThingsFirst
  
- - I would like you to take that sharp sword of yours and smash the troll inside the palace.  #Clip.IWouldLikeYouToTakeThatSharpSword #Camera.CratesCam
+ - I would like you to take that sharp sword of yours and smash the troll inside the palace.  #Clip.IWouldLikeYouToTakeThatSharpSword #Camera.BuildingsCam
  
- ...would you please? #Clip.WouldYouPlease #Clip.OkOkJesFirstThingsFirst #Camera.KnightCam
+ ...would you please? #Clip.WouldYouPlease #Clip.OkOkJesFirstThingsFirst
 
-I really like to smash things. #Clip.IReallyLikeSmashing #EndOfDialogue1
+I really like to smash things. #Clip.IReallyLikeSmashing 
 
-At the entrance you will find some gifts I left for you. Take them! You will need it. You can thank me later...
+At the entrance you will find some gifts I left for you. Take them! You will need it. You can thank me later... #Clip.IWouldLikeYouToTakeThatSharpSword #EndOfDialogue1 #Camera.PlayerFollowCam
 
     -> END
