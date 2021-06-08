@@ -46,8 +46,18 @@ public class CharacterAnimator : MonoBehaviour
 
     protected virtual void OnAttack()
     {
-        animator.SetTrigger("attack");
+        StartCoroutine(attackAnim());
+        
         int attackIndex = Random.Range(0, currentAttackAnimSet.Length);
         overrideController[replaceableAttackAnim.name] = currentAttackAnimSet[attackIndex];
+    }
+
+    private IEnumerator attackAnim()
+    {
+        animator.SetLayerWeight(animator.GetLayerIndex("Attack Layer"), 1);
+        animator.SetTrigger("attack");
+
+        yield return new WaitForSeconds(5);
+        animator.SetLayerWeight(animator.GetLayerIndex("Attack Layer"), 0);
     }
 }

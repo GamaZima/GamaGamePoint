@@ -34,6 +34,16 @@ public class Interactables : MonoBehaviour
         }
     }
 
+    public void OnMouseEnter()
+    {
+        GetComponentInChildren<Renderer>().material.SetFloat("_Outline", 0.01f);
+    }
+
+    public void OnMouseExit()
+    {
+        GetComponentInChildren<Renderer>().material.SetFloat("_Outline", 0f);
+    }
+
     public void OnFocused(Transform playerTransform)
     {
         isFocus = true;

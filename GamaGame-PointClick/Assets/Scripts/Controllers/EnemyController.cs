@@ -25,6 +25,11 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        FollowPlayer();
+    }
+
+    void FollowPlayer()
+    {
         float distance = Vector3.Distance(target.position, transform.position);
 
         if (distance <= lookRadius)
@@ -39,9 +44,9 @@ public class EnemyController : MonoBehaviour
                     // Enemy is attacking
                     combat.Attack(targetStats);
                 }
+
                 FaceTarget();
             }
-
         }
 
     }

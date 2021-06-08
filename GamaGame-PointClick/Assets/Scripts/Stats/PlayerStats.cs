@@ -50,10 +50,10 @@ public class PlayerStats : CharacterStats
     public override void Die()
     {
         base.Die();
-        StartCoroutine (deathRoutine());
+        StartCoroutine (DeathRoutine());
     }
 
-    public IEnumerator deathRoutine()
+    public IEnumerator DeathRoutine()
     {
         GetComponent<PlayerController>().enabled = false;
         anim.SetTrigger("die");
