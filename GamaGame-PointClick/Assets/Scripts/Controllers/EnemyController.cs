@@ -5,36 +5,69 @@ using UnityEngine.AI;
 
 public class EnemyController : MonoBehaviour
 {
-
+    public Transform[] wayPoints;
     public float lookRadius = 10f;
 
     Transform target;
     NavMeshAgent agent;
     CharacterCombat combat;
 
+    private int wayPointIndex;
 
     // Start is called before the first frame update
     void Start()
-    {
+    {        
         target = PlayerManager.instance.player.transform;
         agent = GetComponent<NavMeshAgent>();
         combat = GetComponent<CharacterCombat>();
-
+        wayPointIndex = 0;
+        transform.LookAt(wayPoints[wayPointIndex].position);
     }
 
     // Update is called once per frame
     void Update()
+    {        
+        float distanceToPlayer = Vector3.Distance(target.position, transform.position);
+
+        if (distanceToPlayer <= lookRadius)
+        {
+            FollowPlayer();
+        }
+
+        else if (gameObject.tag == "Troll")
+        {
+            Patrol();
+        }
+
+        else return;
+    }
+
+    void Patrol()
     {
-        FollowPlayer();
+        float distToPoint = Vector3.Distance(transform.position, wayPoints[wayPointIndex].position);
+        agent.SetDestination(wayPoints[wayPointIndex].position);
+
+        if (distToPoint < 5f)
+        {
+            IncreaseIndex();
+        }
+        //transform.Translate(Vector3.forward * speed * Time.deltaTime);
+    }
+
+    void IncreaseIndex()
+    {
+        wayPointIndex++;
+        if(wayPointIndex >= wayPoints.Length)
+        {
+            wayPointIndex = 0;
+        }
+        transform.LookAt(wayPoints[wayPointIndex].position);
     }
 
     void FollowPlayer()
     {
         float distance = Vector3.Distance(target.position, transform.position);
-
-        if (distance <= lookRadius)
-        {
-            agent.SetDestination(target.position); // Enemy follows target(player)
+        agent.SetDestination(target.position);
 
             if (distance <= agent.stoppingDistance)
             {
@@ -47,8 +80,6 @@ public class EnemyController : MonoBehaviour
 
                 FaceTarget();
             }
-        }
-
     }
 
     void FaceTarget()

@@ -334,6 +334,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f2f01c6608e4368abb8176e7d9885c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wayPoints:
+  - {fileID: 3819440744425142402}
   lookRadius: 10
 --- !u!114 &7264079651302673421
 MonoBehaviour:
