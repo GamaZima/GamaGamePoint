@@ -7,12 +7,14 @@ public class EnemyController : MonoBehaviour
 {
     public Transform[] wayPoints;
     public float lookRadius = 10f;
+    private int wayPointIndex;
+    const float locomotionAnimationSmoothTime = 0.1f;
 
     Transform target;
     NavMeshAgent agent;
     CharacterCombat combat;
+    Animator animator;
 
-    private int wayPointIndex;
 
     // Start is called before the first frame update
     void Start()
@@ -20,8 +22,11 @@ public class EnemyController : MonoBehaviour
         target = PlayerManager.instance.player.transform;
         agent = GetComponent<NavMeshAgent>();
         combat = GetComponent<CharacterCombat>();
+        animator = GetComponentInChildren<Animator>();
+
         wayPointIndex = 0;
         transform.LookAt(wayPoints[wayPointIndex].position);
+
     }
 
     // Update is called once per frame
@@ -44,6 +49,9 @@ public class EnemyController : MonoBehaviour
 
     void Patrol()
     {
+        float speedPercent = agent.velocity.magnitude / agent.speed;
+        animator.SetFloat("speedPercent", speedPercent, locomotionAnimationSmoothTime, Time.deltaTime);
+        
         float distToPoint = Vector3.Distance(transform.position, wayPoints[wayPointIndex].position);
         agent.SetDestination(wayPoints[wayPointIndex].position);
 
@@ -51,13 +59,12 @@ public class EnemyController : MonoBehaviour
         {
             IncreaseIndex();
         }
-        //transform.Translate(Vector3.forward * speed * Time.deltaTime);
     }
 
     void IncreaseIndex()
     {
-        wayPointIndex++;
-        if(wayPointIndex >= wayPoints.Length)
+        wayPointIndex++;        
+        if (wayPointIndex >= wayPoints.Length)
         {
             wayPointIndex = 0;
         }
