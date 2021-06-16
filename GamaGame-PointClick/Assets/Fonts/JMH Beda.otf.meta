@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 3e0db54f84a4348e793f48b6b1774026
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - JMH Beda
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: fa74e1c688f4946aeaed24760ec2dd39, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
