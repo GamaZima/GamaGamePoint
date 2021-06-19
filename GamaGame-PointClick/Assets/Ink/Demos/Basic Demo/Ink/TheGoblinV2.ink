@@ -1,4 +1,4 @@
-Hello, my friend! What a pleasant surprise to see you!? #Clip.HelloMyFriendWhatAPleasantSurpriseToSeeYou #Camera.GoblinCam
+Hello, my friend! What a pleasant surprise to see you in this... place!? #Clip.HelloMyFriendWhatAPleasantSurpriseToSeeYou #Camera.GoblinCam
 
 Hello, Goblin. A bird has told me I should speak to you. #Clip.HelloGoblinABirdToldMeIShouldSpeakToYou
 
@@ -20,12 +20,12 @@ Well.. Anyhows... poetry or bigotry? #Clip.AnyhowsPoetryOrBigotry #Camera.Goblin
  
  Ok! Ok! Jes.. Firsts things first. #Clip.OkOkJessFirstThingsFirst
  
- - I would like you to take that sharp sword of yours and smash the troll inside the palace.  #Clip.IWouldLikeYouToTakeThatSharpSword #Camera.BuildingsCam
+ - I would like you to take that sharp sword of yours and smash the troll inside the palace.  #Clip.IWouldLikeYouToTakeThatSharpKillTheTroll #Camera.BuildingsCam
  
  ...would you please? #Clip.WouldYouPlease
 
-I really like to smash things. #Clip.IReallyLikeSmashing #Camera.PlayerFollowCam
+I really like to smash things. #Clip.IReallyLikeSmashing
 
-At the entrance you will find some gifts I left for you. Take them! You will need it. You can thank me later... #Clip.IWouldLikeYouToTakeThatSharpSword #EndOfDialogue1
+At the entrance you will find some gifts I left for you. Take them! You will need it. You can thank me later... #Clip.AtTheEntranceYouWillFindSomeGiftsILeftForYou #Camera.PlayerFollowCam  #EndOfDialogue1
 
     -> END
