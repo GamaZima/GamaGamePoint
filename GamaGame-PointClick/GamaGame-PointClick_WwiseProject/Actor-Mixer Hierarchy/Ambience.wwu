@@ -1,0 +1,2093 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AF4116DC-7F5E-4DE2-A14F-F4B8C9F06A22}" SchemaVersion="103" RootDocumentID="{120312D5-C013-43CC-A6C1-FAAC3407F081}" ParentDocumentID="{120312D5-C013-43CC-A6C1-FAAC3407F081}">
+	<AudioObjects>
+		<WorkUnit Name="Ambience" ID="{AF4116DC-7F5E-4DE2-A14F-F4B8C9F06A22}" OwnerID="{120312D5-C013-43CC-A6C1-FAAC3407F081}" PersistMode="Nested">
+			<ChildrenList>
+				<BlendContainer Name="AmbienceBackground" ID="{37D5A7FF-9310-47B5-BD39-42A8A445F294}" ShortID="378011603">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="Background" ID="{04267F7B-66B9-4307-93BB-EDD9AD8D4DE1}" ShortID="353352231">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BG_CRICKETS_FREE" ID="{9E4EFFED-AFA1-4E63-8301-9D7633848F7E}" ShortID="835318888">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BG_CRICKETS_FREE" ID="{87CAF105-6BFE-41C6-BCD1-20C90536F1BA}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="549.726"/>
+												<Property Name="LoopBegin" Type="Real64" Value="1.1707134502924"/>
+												<Property Name="LoopEnd" Type="Real64" Value="33.9506900584795"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>BG_CRICKETS_FREE.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="261267692"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{0A9CB342-1E2A-4159-A814-70EF7C5A495B}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-44.2067736185383"/>
+												<Property Name="PanY" Type="Real64" Value="-52.2072936660268"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BG_CRICKETS_FREE" ID="{87CAF105-6BFE-41C6-BCD1-20C90536F1BA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BG_CRICKETS_LEFT" ID="{A46C99C6-F97F-4838-BC7D-29F33936529F}" ShortID="213838871">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BG_CRICKETS_LEFT" ID="{F9F0DE6C-3153-49F3-BF71-091182D7C923}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="873.544"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.727953216374269"/>
+												<Property Name="LoopEnd" Type="Real64" Value="32.3696530214425"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>BG_CRICKETS_LEFT.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="497292655"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{137E0B20-FD62-476C-8C97-0AAAA26A617A}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-70"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BG_CRICKETS_LEFT" ID="{F9F0DE6C-3153-49F3-BF71-091182D7C923}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BG_CRICKETS_RIGHT" ID="{BECE7E33-710F-4FBC-95D3-018F5D107A7B}" ShortID="239264865">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BG_CRICKETS_RIGHT" ID="{794E277C-AB04-4E91-8E35-3B50E5F07BAA}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="786.189"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.922074074074074"/>
+												<Property Name="LoopEnd" Type="Real64" Value="32.1755321637427"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>BG_CRICKETS_RIGHT.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="559162269"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{41A4AADE-F8C5-4B12-B049-D5B5DBAE0E54}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="70"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BG_CRICKETS_RIGHT" ID="{794E277C-AB04-4E91-8E35-3B50E5F07BAA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BG_CRICKETSBIRDS_BINAURAL" ID="{5258490B-A710-4B75-A3FD-4C556220E32E}" ShortID="612251384">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BG_CRICKETSBIRDS_BINAURAL" ID="{603202DF-89B8-402B-8ADD-6E26EC5F4014}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1135.607"/>
+												<Property Name="LoopBegin" Type="Real64" Value="1.21681329423265"/>
+												<Property Name="LoopEnd" Type="Real64" Value="32.3185610948192"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>BG_CRICKETSBIRDS_BINAURAL.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="132030266"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BG_CRICKETSBIRDS_BINAURAL" ID="{603202DF-89B8-402B-8ADD-6E26EC5F4014}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BG_CRICKETSBIRDS_CENTER" ID="{1D6BDD06-A2D3-41A3-9F0F-F04F4EE173D7}" ShortID="222267932">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BG_CRICKETSBIRDS_CENTER" ID="{353F57D1-78B7-456A-9F61-4AFC1BCCAEE7}">
+											<Language>SFX</Language>
+											<AudioFile>BG_CRICKETSBIRDS_CENTER.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="224112188"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BG_CRICKETSBIRDS_CENTER" ID="{353F57D1-78B7-456A-9F61-4AFC1BCCAEE7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BG_WIND_CENTER" ID="{DD38F84B-5042-4278-A747-169D7399E7F9}" ShortID="519809685">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BG_WIND_CENTER" ID="{BD874B35-9C7C-4622-BA6F-A9F184CD8D00}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0.759398826979472"/>
+												<Property Name="LoopEnd" Type="Real64" Value="33.4135483870968"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>BG_WIND_CENTER.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="11209624"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BG_WIND_CENTER" ID="{BD874B35-9C7C-4622-BA6F-A9F184CD8D00}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</BlendContainer>
+						<RandomSequenceContainer Name="BirdsFlyBy" ID="{E8A19296-92DD-42FD-A1D1-1AED97867118}" ShortID="335440274">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Highpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{EEAAC334-2017-44DA-BCB6-1A1A0E37C43E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-31"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{FFAEE2E7-568B-43B1-85AA-335D55B6BB77}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{72233487-D1C7-4EF8-9B80-6193F434B94B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-15"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ONESHOT_BIRDS_FLYBY_1" ID="{B2B1D6F6-DEBA-436B-B25E-99730A5A6A8A}" ShortID="907640263">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ONESHOT_BIRDS_FLYBY_1" ID="{2A392348-7A01-4007-B4FC-CF939BA3C8D3}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.84669229933746"/>
+												<Property Name="FadeInShape" Type="int16" Value="4"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.25447941783426"/>
+												<Property Name="FadeOutShape" Type="int16" Value="4"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.31228152492669"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.51538611925709"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ONESHOT_BIRDS_FLYBY_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1071733402"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{7D30FFA3-B6A1-4861-9B36-00B36502C881}">
+											<PropertyList>
+												<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="ONESHOT_BIRDS_FLYBY_1_Path" ID="{8638FAFD-B4D7-4E06-B901-9524BB730CC9}">
+													<PointList>
+														<Point>
+															<XPos>-96.4467</XPos>
+															<YPos>7.62712</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>-52.28426</XPos>
+															<YPos>36.72316</YPos>
+															<Flags>0</Flags>
+															<Time>1250</Time>
+														</Point>
+														<Point>
+															<XPos>-0.50761</XPos>
+															<YPos>53.10734</YPos>
+															<Flags>0</Flags>
+															<Time>2500</Time>
+														</Point>
+														<Point>
+															<XPos>46.19289</XPos>
+															<YPos>39.54803</YPos>
+															<Flags>0</Flags>
+															<Time>3750</Time>
+														</Point>
+														<Point>
+															<XPos>98.98477</XPos>
+															<YPos>-0.56498</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="ONESHOT_BIRDS_FLYBY_1_Path_01" ID="{DB3965A0-70E0-403A-9175-423C04C50B3A}">
+													<PointList>
+														<Point>
+															<XPos>-100</XPos>
+															<YPos>-100</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>1.52285</XPos>
+															<YPos>-82.48587</YPos>
+															<Flags>0</Flags>
+															<Time>1000</Time>
+														</Point>
+														<Point>
+															<XPos>62.9441624365482</XPos>
+															<YPos>-63.8418079096045</YPos>
+															<Flags>0</Flags>
+															<Time>2000</Time>
+														</Point>
+														<Point>
+															<XPos>81.7258883248731</XPos>
+															<YPos>11.864406779661</YPos>
+															<Flags>0</Flags>
+															<Time>3000</Time>
+														</Point>
+														<Point>
+															<XPos>49.746192893401</XPos>
+															<YPos>83.0508474576271</YPos>
+															<Flags>0</Flags>
+															<Time>4000</Time>
+														</Point>
+														<Point>
+															<XPos>-100</XPos>
+															<YPos>85.87571</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="ONESHOT_BIRDS_FLYBY_1_Path_02" ID="{8224141F-50F3-4692-BBD8-311FDDA06133}">
+													<PointList>
+														<Point>
+															<XPos>-100</XPos>
+															<YPos>-100</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>93.4010152284264</XPos>
+															<YPos>91.5254237288136</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="ONESHOT_BIRDS_FLYBY_1_Path_03" ID="{A16643C4-CD0A-452C-8441-27330F545C7E}">
+													<PointList>
+														<Point>
+															<XPos>-100</XPos>
+															<YPos>6.49718</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-40.11299</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="ONESHOT_BIRDS_FLYBY_1_Path_04" ID="{83C2FCD2-44FC-43D3-8E11-A921B11F86B1}">
+													<PointList>
+														<Point>
+															<XPos>79.18782</XPos>
+															<YPos>-85.59322</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>-91.3705583756345</XPos>
+															<YPos>85.3107344632768</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ONESHOT_BIRDS_FLYBY_1" ID="{2A392348-7A01-4007-B4FC-CF939BA3C8D3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ONESHOT_BIRDS_FLYBY_2" ID="{D7053F93-0F91-4B35-8DEF-AD6151633CB1}" ShortID="780534588">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ONESHOT_BIRDS_FLYBY_2" ID="{76FBFD40-A382-47FB-9284-2A35F597D1D0}">
+											<PropertyList>
+												<Property Name="CrossfadeShape" Type="int16" Value="4"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.93695126705653"/>
+												<Property Name="FadeInShape" Type="int16" Value="4"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.63799118519662"/>
+												<Property Name="FadeOutShape" Type="int16" Value="4"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.81341935483871"/>
+												<Property Name="TrimEnd" Type="Real64" Value="6.63060019550342"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ONESHOT_BIRDS_FLYBY_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="725706964"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ONESHOT_BIRDS_FLYBY_2" ID="{76FBFD40-A382-47FB-9284-2A35F597D1D0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ONESHOT_BIRDS_FLYBY_3" ID="{EC9801DC-19A0-4895-9280-CB2469AAE508}" ShortID="726074734">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ONESHOT_BIRDS_FLYBY_3" ID="{F0381B00-153F-4147-82B3-D1D43D694D57}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.62004401685217"/>
+												<Property Name="FadeInShape" Type="int16" Value="4"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="3.72602905112243"/>
+												<Property Name="FadeOutShape" Type="int16" Value="4"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.99292277614858"/>
+												<Property Name="TrimEnd" Type="Real64" Value="9.46674486803519"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ONESHOT_BIRDS_FLYBY_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="154548441"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ONESHOT_BIRDS_FLYBY_3" ID="{F0381B00-153F-4147-82B3-D1D43D694D57}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Silence" ID="{DCE5A160-45E2-4AB1-9A54-CB6C199438B5}" ShortID="766363370">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>90</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Wwise Silence" ID="{8DB5E0EC-EC41-48C7-8921-3E9AA8D44514}" ShortID="441410080" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+											<PropertyList>
+												<Property Name="Length" Type="Real32" Value="10"/>
+											</PropertyList>
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Wwise Silence" ID="{8DB5E0EC-EC41-48C7-8921-3E9AA8D44514}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{49D967CC-9889-4E43-B8CE-1B1769468340}">
+									<PropertyList>
+										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="BirdsFlyBy_Path" ID="{330E5B0D-4A98-4021-BCF1-7831D9EAD72A}">
+											<PointList>
+												<Point>
+													<XPos>-100</XPos>
+													<YPos>3.10734</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>-77.15737</XPos>
+													<YPos>25.42374</YPos>
+													<Flags>0</Flags>
+													<Time>833</Time>
+												</Point>
+												<Point>
+													<XPos>-40.10152</XPos>
+													<YPos>43.50282</YPos>
+													<Flags>0</Flags>
+													<Time>1666</Time>
+												</Point>
+												<Point>
+													<XPos>8.62944</XPos>
+													<YPos>50.84746</YPos>
+													<Flags>0</Flags>
+													<Time>2500</Time>
+												</Point>
+												<Point>
+													<XPos>50.25381</XPos>
+													<YPos>44.0678</YPos>
+													<Flags>0</Flags>
+													<Time>3333</Time>
+												</Point>
+												<Point>
+													<XPos>75.1269</XPos>
+													<YPos>20.90395</YPos>
+													<Flags>0</Flags>
+													<Time>4166</Time>
+												</Point>
+												<Point>
+													<XPos>100</XPos>
+													<YPos>-25.42373</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="BirdsFlyBy_Path_01" ID="{F73A2DF6-54CA-4543-9725-B3ED6E51F1FB}">
+											<PointList>
+												<Point>
+													<XPos>-100</XPos>
+													<YPos>23.44633</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>-62.43655</XPos>
+													<YPos>38.41808</YPos>
+													<Flags>0</Flags>
+													<Time>1000</Time>
+												</Point>
+												<Point>
+													<XPos>-13.70558</XPos>
+													<YPos>44.0678</YPos>
+													<Flags>0</Flags>
+													<Time>2000</Time>
+												</Point>
+												<Point>
+													<XPos>34.51777</XPos>
+													<YPos>33.89831</YPos>
+													<Flags>0</Flags>
+													<Time>3000</Time>
+												</Point>
+												<Point>
+													<XPos>75.63452</XPos>
+													<YPos>15.81921</YPos>
+													<Flags>0</Flags>
+													<Time>4000</Time>
+												</Point>
+												<Point>
+													<XPos>100</XPos>
+													<YPos>-22.0339</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="BirdsFlyBy_Path_02" ID="{B063B252-693F-49B0-90CE-6D9406F28461}">
+											<PointList>
+												<Point>
+													<XPos>100</XPos>
+													<YPos>100</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>-100</XPos>
+													<YPos>-100</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="BirdsFlyBy_Path_03" ID="{EED68C17-8AA1-480F-BDEE-BEA395067511}">
+											<PointList>
+												<Point>
+													<XPos>100</XPos>
+													<YPos>-100</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>-100</XPos>
+													<YPos>100</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="BirdsFlyBy_Path_04" ID="{9E1DF524-6F50-4790-B8A9-5FB5793E54CA}">
+											<PointList>
+												<Point>
+													<XPos>-100</XPos>
+													<YPos>-78.24859</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>72.08122</XPos>
+													<YPos>100</YPos>
+													<Flags>0</Flags>
+													<Time>5000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Birds" ID="{747088CF-4FE6-4E89-8DB4-63864CCF38BC}" ShortID="176009509">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{5C24603D-3615-4DC8-BFC3-E5C807EDCEDF}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-15"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B056480C-A128-49CE-8517-CCEB996FE106}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3E332A99-D36E-4B76-8DC1-964756476D93}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{18137509-6AED-4159-B519-664B634DD0D8}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-15"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ONESHOT_CRICKETSBIRDS_1" ID="{5670C302-63F9-4465-8171-2751BE7B9E58}" ShortID="782478418">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ONESHOT_CRICKETSBIRDS_1" ID="{0BD597BA-EF22-418C-B86D-0183142E9725}">
+											<Language>SFX</Language>
+											<AudioFile>ONESHOT_CRICKETSBIRDS_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="666211644"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{EAEFB7C5-AB69-414F-9FFA-62068C44D665}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-92.6916221033868"/>
+												<Property Name="PanY" Type="Real64" Value="40.6909788867563"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ONESHOT_CRICKETSBIRDS_1" ID="{0BD597BA-EF22-418C-B86D-0183142E9725}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ONESHOT_CRICKETSBIRDS_2" ID="{26BFC1CE-B002-4DB4-AA07-CD81CEFB14DA}" ShortID="57092106">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ONESHOT_CRICKETSBIRDS_2" ID="{E5283DE4-B0D5-4C72-A29F-E9DB5A93DD92}">
+											<Language>SFX</Language>
+											<AudioFile>ONESHOT_CRICKETSBIRDS_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="343145554"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{7B41C499-675A-44F0-8081-3981B9702BAA}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-79.5008912655971"/>
+												<Property Name="PanY" Type="Real64" Value="-7.2936660268714"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ONESHOT_CRICKETSBIRDS_2" ID="{E5283DE4-B0D5-4C72-A29F-E9DB5A93DD92}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ONESHOT_CRICKETSBIRDS_3" ID="{C01E875B-93E4-45D3-AF40-2D219912FD0E}" ShortID="873141451">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ONESHOT_CRICKETSBIRDS_3" ID="{458E618C-2C11-426E-92DB-167BBF0A736E}">
+											<Language>SFX</Language>
+											<AudioFile>ONESHOT_CRICKETSBIRDS_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="216199629"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{F168834E-8549-4964-A74A-7C5F73F663BD}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-24.9554367201426"/>
+												<Property Name="PanY" Type="Real64" Value="-13.8195777351248"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ONESHOT_CRICKETSBIRDS_3" ID="{458E618C-2C11-426E-92DB-167BBF0A736E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ONESHOT_CRICKETSBIRDS_4" ID="{ADD5E687-0F98-465A-A58B-7387513A56D2}" ShortID="454125520">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ONESHOT_CRICKETSBIRDS_4" ID="{C61980DB-0F5E-4E7F-A2B8-CAF694F2B983}">
+											<Language>SFX</Language>
+											<AudioFile>ONESHOT_CRICKETSBIRDS_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="119151416"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{54CC4E9C-2939-4396-A571-BE7BB3E4C421}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="85.9180035650624"/>
+												<Property Name="PanY" Type="Real64" Value="-50.2879078694818"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ONESHOT_CRICKETSBIRDS_4" ID="{C61980DB-0F5E-4E7F-A2B8-CAF694F2B983}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ONESHOT_CRICKETSBIRDS_5" ID="{6FDEAC64-3C26-48F9-9909-FEFDC2570A17}" ShortID="218316685">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ONESHOT_CRICKETSBIRDS_5" ID="{2F157952-40B1-40AB-9C1E-214BE578C8A5}">
+											<Language>SFX</Language>
+											<AudioFile>ONESHOT_CRICKETSBIRDS_5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="946620534"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{EB91D86C-DD82-42A8-A693-63DBA207D786}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="61.319073083779"/>
+												<Property Name="PanY" Type="Real64" Value="95.2015355086372"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ONESHOT_CRICKETSBIRDS_5" ID="{2F157952-40B1-40AB-9C1E-214BE578C8A5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ONESHOT_HAWK_1" ID="{6BA02335-4CCE-4489-8FA1-8E2A8B77F83B}" ShortID="991715555">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ONESHOT_HAWK_1" ID="{B70F8AB6-AC24-4876-A5B8-2FDA55EA1BD0}">
+											<Language>SFX</Language>
+											<AudioFile>ONESHOT_HAWK_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="951045108"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{F7C4A472-0ED3-4AD8-8F2F-932D6DB85746}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-100"/>
+												<Property Name="PanY" Type="Real64" Value="76.3915547024952"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ONESHOT_HAWK_1" ID="{B70F8AB6-AC24-4876-A5B8-2FDA55EA1BD0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Silence" ID="{327D6D35-237B-44F9-A7E0-98637F43D1A0}" ShortID="464591864">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>90</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Wwise Silence" ID="{A021D0E4-638F-45E7-A7B3-D058BE51722F}" ShortID="346034253" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+											<PropertyList>
+												<Property Name="Length" Type="Real32" Value="10"/>
+											</PropertyList>
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Wwise Silence" ID="{A021D0E4-638F-45E7-A7B3-D058BE51722F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Owl" ID="{7B750825-BD0B-4856-B11D-22CDFED9737E}" ShortID="1045211573">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ONESHOT_OWL_1" ID="{88635D5F-04AA-46F2-AD96-300EE2B209FA}" ShortID="290052160">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ONESHOT_OWL_1" ID="{8090CE40-02BD-46E9-8117-1559D8599AA5}">
+											<Language>SFX</Language>
+											<AudioFile>ONESHOT_OWL_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="85343884"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{A790C3DA-DF87-493C-B471-8FB1D797A49B}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-69.1622103386809"/>
+												<Property Name="PanY" Type="Real64" Value="3.45489443378118"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ONESHOT_OWL_1" ID="{8090CE40-02BD-46E9-8117-1559D8599AA5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ONESHOT_OWL_3" ID="{5C074522-891E-4944-9987-72D7D4877ED1}" ShortID="463563391">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-16</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ONESHOT_OWL_3" ID="{D1C3DD8D-D1C3-4754-83FA-F50DE6DFC33C}">
+											<Language>SFX</Language>
+											<AudioFile>ONESHOT_OWL_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="951494063"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{688DA8F1-1DDF-405B-A464-649B6AC9EAFD}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-54.5454545454545"/>
+												<Property Name="PanY" Type="Real64" Value="32.2456813819578"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ONESHOT_OWL_3" ID="{D1C3DD8D-D1C3-4754-83FA-F50DE6DFC33C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ONESHOT_OWL_2" ID="{477D8DFA-ACF2-4FD1-8A0B-B1CBC72A81D8}" ShortID="436553250">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ONESHOT_OWL_2" ID="{410B8154-EED9-4745-809A-2B35BA6C6D9F}">
+											<Language>SFX</Language>
+											<AudioFile>ONESHOT_OWL_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="731647904"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{D83D346F-BDBE-4D5F-9B7F-D466DB6124F3}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-62.7450980392157"/>
+												<Property Name="PanY" Type="Real64" Value="-14.5873320537428"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ONESHOT_OWL_2" ID="{410B8154-EED9-4745-809A-2B35BA6C6D9F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="New Sound SFX" ID="{3F95F3D8-BC08-4CE0-AD9B-201A25CC773E}" ShortID="936552004">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Wwise Silence" ID="{C756B3E3-B1B3-483C-80A5-468B13D25577}" ShortID="920232685" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+											<PropertyList>
+												<Property Name="Length" Type="Real32" Value="5"/>
+												<Property Name="LengthMax" Type="Real32" Value="5"/>
+											</PropertyList>
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Wwise Silence" ID="{C756B3E3-B1B3-483C-80A5-468B13D25577}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Frogs" ID="{2E2DECE8-1760-4FE1-9961-ECD48D6ABA1C}" ShortID="450490598">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{CABCD1F5-B23A-4F4F-8AFA-F3D999194C2A}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Frogs_B" ID="{94DFDEAD-B2D1-46F1-8CAB-19EB767069CB}" ShortID="345037305">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E87D8770-B149-49AD-AB49-E712687EF638}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="33"/>
+															<Property Name="Min" Type="Real64" Value="-35"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{603A30A1-032B-4D32-85CE-8BFC17AD8866}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-19"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{564987A6-67CE-4C70-ABD8-1BDF695C4111}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-25"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E6AA5E0A-B30C-45FC-BB3A-21A68D78D946}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+															<Property Name="Min" Type="Real64" Value="-10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ONESHOT_FROG_B_5_BIRD" ID="{ECFAF133-D88A-4345-94F4-5207386AFF4E}" ShortID="623275675">
+											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ONESHOT_FROG_B_5" ID="{E967F5DD-8F84-412C-8991-7BF0461F974C}">
+													<Language>SFX</Language>
+													<AudioFile>ONESHOT_FROG_B_5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="437625213"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{850866F0-EA1A-4674-BA90-5A76A0289C79}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="1.42602495543673"/>
+														<Property Name="PanY" Type="Real64" Value="-100"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ONESHOT_FROG_B_5" ID="{E967F5DD-8F84-412C-8991-7BF0461F974C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ONESHOT_FROG_B_3" ID="{74154D2B-78BD-4E2B-B8F5-8E89A4464FB6}" ShortID="132616662">
+											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ONESHOT_FROG_B_3" ID="{8C454434-8738-47D6-A68D-110B35F9D59D}">
+													<Language>SFX</Language>
+													<AudioFile>ONESHOT_FROG_B_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="981813819"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{8F21E202-9ED4-44E8-B86C-84087DA01D34}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="74.1532976827094"/>
+														<Property Name="PanY" Type="Real64" Value="-39.1554702495202"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ONESHOT_FROG_B_3" ID="{8C454434-8738-47D6-A68D-110B35F9D59D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ONESHOT_FROG_B_2" ID="{76325C9A-5136-4E4B-90EB-77832CFB8941}" ShortID="55014097">
+											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ONESHOT_FROG_B_2" ID="{FDFD45A4-0780-420F-9384-A35DBC8186D5}">
+													<Language>SFX</Language>
+													<AudioFile>ONESHOT_FROG_B_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="712918141"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{270FB158-F36B-47B6-9C95-1684144FFBC9}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="79.5008912655971"/>
+														<Property Name="PanY" Type="Real64" Value="28.0230326295585"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ONESHOT_FROG_B_2" ID="{FDFD45A4-0780-420F-9384-A35DBC8186D5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ONESHOT_FROG_B_1" ID="{82D3ED2D-4319-4A48-8E47-2E4F3BCC1445}" ShortID="502426440">
+											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ONESHOT_FROG_B_1" ID="{A9FB020E-1B57-447D-88E3-30D808652A71}">
+													<Language>SFX</Language>
+													<AudioFile>ONESHOT_FROG_B_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="681381302"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{DF95EC4A-DBD8-4F80-BFE7-E76BDB942819}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="52.0499108734403"/>
+														<Property Name="PanY" Type="Real64" Value="-41.0748560460653"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ONESHOT_FROG_B_1" ID="{A9FB020E-1B57-447D-88E3-30D808652A71}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ONESHOT_FROG_B_4" ID="{5C0644A9-6388-4088-A707-A7ED91EE99D0}" ShortID="134380477">
+											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ONESHOT_FROG_B_4" ID="{6E03C5FA-0D7F-45B2-B999-AA5787BF9DBE}">
+													<Language>SFX</Language>
+													<AudioFile>ONESHOT_FROG_B_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="338365507"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{3C7C71D4-674F-4BFE-A9D6-AF32498F43FC}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="74.5098039215687"/>
+														<Property Name="PanY" Type="Real64" Value="20.3454894433781"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ONESHOT_FROG_B_4" ID="{6E03C5FA-0D7F-45B2-B999-AA5787BF9DBE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Silence" ID="{72A1D26B-558F-4D37-AB76-64010D815E82}" ShortID="783953587">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>80</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{CC493EED-FA72-4C4E-B0A5-D21BF4D1AAFA}" ShortID="343527260" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="2"/>
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{CC493EED-FA72-4C4E-B0A5-D21BF4D1AAFA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Frogs_A" ID="{F6B0CD15-C630-479B-A1E4-00F5A384FAC7}" ShortID="122664061">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8C78FEB0-CE19-4E53-BCEE-67EF4FBFD870}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-78"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7ECEAC6F-B998-4294-BA98-82FA5DE2E3E3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{82033BF8-C9F0-48A9-8355-AB0852056B40}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{87936C66-FF36-40A2-8142-0F6909EDF71E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+															<Property Name="Min" Type="Real64" Value="-10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0C453F6D-5A24-4E8D-AC44-53D9163008B1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+															<Property Name="Min" Type="Real64" Value="-10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-27</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ONESHOT_FROG_A_1" ID="{1BD95999-E678-4A8B-9FF4-EF9259381556}" ShortID="951206019">
+											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ONESHOT_FROG_A_1" ID="{FD95E646-9FE3-430A-BFFB-72E11E160202}">
+													<Language>SFX</Language>
+													<AudioFile>ONESHOT_FROG_A_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="892277952"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{A1D0D617-D5F8-4240-B364-33C6C51EA6C3}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-93.048128342246"/>
+														<Property Name="PanY" Type="Real64" Value="38.7715930902111"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ONESHOT_FROG_A_1" ID="{FD95E646-9FE3-430A-BFFB-72E11E160202}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ONESHOT_FROG_A_2" ID="{A05A70F8-7308-4DEB-8C22-97DA1D3C4CC4}" ShortID="232427394">
+											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ONESHOT_FROG_A_2" ID="{08F0FF88-1E07-4331-B112-D2B3E1ECA028}">
+													<Language>SFX</Language>
+													<AudioFile>ONESHOT_FROG_A_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="162200329"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{374C8E99-551A-4FDE-8DEE-ACCA40C459F3}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-71.301247771836"/>
+														<Property Name="PanY" Type="Real64" Value="-40.6909788867563"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ONESHOT_FROG_A_2" ID="{08F0FF88-1E07-4331-B112-D2B3E1ECA028}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ONESHOT_FROG_A_3" ID="{99E44152-7640-4943-972E-69E24DC42FFC}" ShortID="85026243">
+											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ONESHOT_FROG_A_3" ID="{30F11F62-38F5-4F92-ABD1-8A3F4D77D574}">
+													<Language>SFX</Language>
+													<AudioFile>ONESHOT_FROG_A_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1027630177"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{9EE93731-B7E4-4A82-863D-7EFD16AABBDE}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="40.6417112299465"/>
+														<Property Name="PanY" Type="Real64" Value="18.042226487524"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="ONESHOT_FROG_A_3" ID="{30F11F62-38F5-4F92-ABD1-8A3F4D77D574}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Silence" ID="{05CA8750-F806-456F-9D96-A34F4187D88C}" ShortID="45578664">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{75AD25A1-FB38-4B7B-9DB4-F75B80A5CD61}" ShortID="77327938" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="4"/>
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{75AD25A1-FB38-4B7B-9DB4-F75B80A5CD61}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</BlendContainer>
+				<Folder Name="Emitters" ID="{B521528E-BDEE-490D-ACA5-46CD9B2D5E05}" ShortID="20160606">
+					<ChildrenList>
+						<BlendContainer Name="Fire" ID="{143C3BCB-EC5F-4D3A-AFE3-C7B808A8EFFE}" ShortID="818106850">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="80"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Campfire" ID="{5E39B9DD-7C4E-4C06-8B0C-C7CCF7544E46}" WorkUnitID="{90A4DB85-83C1-452B-8626-DE8FB39389DB}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Fire_B" ID="{CFACB005-C3C7-44C1-9CAD-7A48B136E70D}" ShortID="653941109">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D68C91A9-04E3-4DFD-8DAF-44EE7657C5BD}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F5BEED11-2D19-4869-B8FF-9F66E6959B49}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FIRE_B_1" ID="{B65CF527-9A56-4877-BD8D-FF676FB0AF39}" ShortID="666997175">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FIRE_B_1" ID="{2CF398AE-0E41-472F-A0DD-DC56B37464DE}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="105.993"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.125497556207234"/>
+														<Property Name="LoopEnd" Type="Real64" Value="4.91655131964809"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>FIRE_B_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="533416641"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FIRE_B_1" ID="{2CF398AE-0E41-472F-A0DD-DC56B37464DE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FIRE_B_4" ID="{1D5827A0-1274-4B4B-9B15-E55042D2A479}" ShortID="676686404">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FIRE_B_4" ID="{8F01BE7A-DCB4-4D5F-8124-E5B305F88964}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="92.744"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.125497556207234"/>
+														<Property Name="LoopEnd" Type="Real64" Value="4.89440469208211"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>FIRE_B_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="678795498"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FIRE_B_4" ID="{8F01BE7A-DCB4-4D5F-8124-E5B305F88964}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FIRE_B_3" ID="{29A47F6A-8458-48A1-835C-E7C765641E07}" ShortID="473121104">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FIRE_B_3" ID="{09528283-E082-417A-A2F2-EFA6C682A803}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="79.495"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.118115347018573"/>
+														<Property Name="LoopEnd" Type="Real64" Value="4.83534701857282"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>FIRE_B_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="862637347"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FIRE_B_3" ID="{09528283-E082-417A-A2F2-EFA6C682A803}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FIRE_B_2" ID="{1257AE76-D24F-4674-80C6-35534632F9C5}" ShortID="743987554">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FIRE_B_2" ID="{E4AA18DB-078F-4B27-9037-F2BAFC2A2607}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="105.993"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.155026392961877"/>
+														<Property Name="LoopEnd" Type="Real64" Value="4.87225806451613"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>FIRE_B_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="205939359"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="FIRE_B_2" ID="{E4AA18DB-078F-4B27-9037-F2BAFC2A2607}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<Sound Name="Fire_A" ID="{FA2F7ED4-F7E1-49B0-80F5-9CA196BDF35F}" ShortID="498627579">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48CF7550-8D90-4755-A5F4-5E71B948FC39}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FIRE_A" ID="{2ED43FE9-06D6-40EA-B32D-FDA6C62AB3D3}">
+											<Language>SFX</Language>
+											<AudioFile>FIRE_A.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="915484703"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FIRE_A" ID="{2ED43FE9-06D6-40EA-B32D-FDA6C62AB3D3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</BlendContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

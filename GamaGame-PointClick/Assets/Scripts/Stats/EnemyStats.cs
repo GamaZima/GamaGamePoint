@@ -5,14 +5,14 @@ using UnityEngine;
 public class EnemyStats : CharacterStats
 {
     private Animator anim;
-    EnemyController enemyActive;
-    Transform deahtTransform;
+    //EnemyController enemyActive;
+    //Transform deahtTransform;
 
 
     protected virtual void Start()
     {
         anim = GetComponentInChildren<Animator>();
-        enemyActive = GetComponent<EnemyController>();
+        //enemyActive = GetComponent<EnemyController>();
     }
 
     public override void TookDamage()

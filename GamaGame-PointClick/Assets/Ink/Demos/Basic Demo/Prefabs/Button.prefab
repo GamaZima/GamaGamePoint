@@ -270,12 +270,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 105558}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dac813d1916574b339acb730062bb1b6, type: 3}
+  m_Script: {fileID: 11500000, guid: f61ddfe1f7fb74efe9ddd160d5b949f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mySFX: {fileID: 6335809941251076153}
-  hoverSFX: {fileID: 8300000, guid: 920cb9f4274a74361b97f07c3a3fcede, type: 3}
-  clickSFX: {fileID: 8300000, guid: cfb675a95622a4bde9ac89c5a9122ee5, type: 3}
+  hoverSFX: {fileID: 8300000, guid: cfb675a95622a4bde9ac89c5a9122ee5, type: 3}
+  clickSFX: {fileID: 8300000, guid: 920cb9f4274a74361b97f07c3a3fcede, type: 3}
 --- !u!114 &6644340432259920867
 MonoBehaviour:
   m_ObjectHideFlags: 0

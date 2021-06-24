@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5D02EA69-9A0F-46E3-8A05-20657B425854}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{5D02EA69-9A0F-46E3-8A05-20657B425854}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Player" ID="{0F165898-822A-4156-A70E-A6C9153802D6}" ShortID="53728848">
+					<ChildrenList>
+						<Event Name="FootstepPlay" ID="{A476A554-B9CC-4702-8F40-73378F384EC4}">
+							<ChildrenList>
+								<Action Name="" ID="{166FAED7-EAD3-4343-875C-83F7BD2A771B}" ShortID="388154111">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footstep" ID="{48B02D13-6F30-4547-A594-8B54E3055577}" WorkUnitID="{84B4F838-196E-4372-B5B8-060FB7F80638}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="AttackPlay" ID="{D734032C-C6A8-4BCE-96D9-99A692FF7D52}">
+							<ChildrenList>
+								<Action Name="" ID="{FE956FC2-0388-411D-AFBD-223F760AA3F4}" ShortID="324883426">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Attack" ID="{1370FC17-CB91-480D-A993-B2CEED3E4A7D}" WorkUnitID="{84B4F838-196E-4372-B5B8-060FB7F80638}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambiences" ID="{C6D10307-A32A-4F12-9FD3-C01B51358BA0}" ShortID="214846682">
+					<ChildrenList>
+						<Event Name="ExteriorBackground" ID="{D4AA4F7B-0230-4363-88D0-06B4FD79B64C}">
+							<ChildrenList>
+								<Action Name="" ID="{898AAA94-3CF0-4774-B484-C5AF6FA18EBC}" ShortID="857235956">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AmbienceBackground" ID="{37D5A7FF-9310-47B5-BD39-42A8A445F294}" WorkUnitID="{AF4116DC-7F5E-4DE2-A14F-F4B8C9F06A22}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Fire" ID="{993BC18C-3D91-49C7-9DDE-C32335845A17}">
+							<ChildrenList>
+								<Action Name="" ID="{A865837D-BA4A-4E5B-946A-CF7BF4F9DA69}" ShortID="554759868">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fire" ID="{143C3BCB-EC5F-4D3A-AFE3-C7B808A8EFFE}" WorkUnitID="{AF4116DC-7F5E-4DE2-A14F-F4B8C9F06A22}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

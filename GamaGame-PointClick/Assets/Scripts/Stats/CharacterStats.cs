@@ -6,7 +6,6 @@ public class CharacterStats : MonoBehaviour
 {
     public int maxHealth = 100;
     public int currentHealth { get; set; }
-    //public int heal;
 
     public Stat damage;
     public Stat armor;
@@ -37,9 +36,7 @@ public class CharacterStats : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.T))
         {
             TakeDamage(10);
-        }
-
-        //if(Input.GetKeyDown(KeyCode.Y)) { Heal(5); }        
+        }       
     }
 
     // Damage the character
@@ -104,7 +101,6 @@ public class CharacterStats : MonoBehaviour
     {
         // Die in some way
         // Meant to be overwritten
-        Debug.Log(transform.name + " died.");
     }
 
 }

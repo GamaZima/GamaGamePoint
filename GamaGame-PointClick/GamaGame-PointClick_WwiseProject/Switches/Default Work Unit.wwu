@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C56391A1-9B4B-4F3B-8E23-DE955C530A78}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{C56391A1-9B4B-4F3B-8E23-DE955C530A78}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="FootstepMaterial" ID="{D6EB6204-1443-4F3F-B715-A3D32525526C}">
+					<ChildrenList>
+						<Switch Name="Grass" ID="{00527231-50FF-457B-9C8B-1B5B54D133AC}"/>
+						<Switch Name="Concrete" ID="{A4682FFE-3976-4557-869B-E6AAA84F058F}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

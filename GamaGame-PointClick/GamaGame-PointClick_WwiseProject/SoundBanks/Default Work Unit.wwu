@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B8B0FB1B-1BE0-469D-9749-88D057CC544B}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{B8B0FB1B-1BE0-469D-9749-88D057CC544B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Player" ID="{EC786740-7E73-45D2-8571-3FE681B292CB}">
+					<ObjectInclusionList>
+						<ObjectRef Name="FootstepPlay" ID="{A476A554-B9CC-4702-8F40-73378F384EC4}" WorkUnitID="{5D02EA69-9A0F-46E3-8A05-20657B425854}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="AttackPlay" ID="{D734032C-C6A8-4BCE-96D9-99A692FF7D52}" WorkUnitID="{5D02EA69-9A0F-46E3-8A05-20657B425854}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambience" ID="{6584AC45-9482-4263-B73A-4EBCF9FAA53B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="ExteriorBackground" ID="{D4AA4F7B-0230-4363-88D0-06B4FD79B64C}" WorkUnitID="{5D02EA69-9A0F-46E3-8A05-20657B425854}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fire" ID="{993BC18C-3D91-49C7-9DDE-C32335845A17}" WorkUnitID="{5D02EA69-9A0F-46E3-8A05-20657B425854}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
