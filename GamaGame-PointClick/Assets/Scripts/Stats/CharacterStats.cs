@@ -7,6 +7,8 @@ public class CharacterStats : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth { get; set; }
 
+    public bool isAlive;
+
     public Stat damage;
     public Stat armor;
 
@@ -24,10 +26,21 @@ public class CharacterStats : MonoBehaviour
         }
     }
 
+    public void IsAlive()
+    {
+        if(currentHealth < 0)
+        {
+            isAlive = true;
+        }
+
+    }
+
+
     // Starts the game with maxHealth value
     private void Awake()
     {
         currentHealth = maxHealth;
+        IsAlive();
     }    
 
     private void Update()
@@ -36,7 +49,7 @@ public class CharacterStats : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.T))
         {
             TakeDamage(10);
-        }       
+        }
     }
 
     // Damage the character
@@ -60,7 +73,7 @@ public class CharacterStats : MonoBehaviour
         // Sends info to GUI health bar slider..?
         if (OnHealthChanged != null)
         {
-            OnHealthChanged(maxHealth, currentHealth);
+            OnHealthChanged(maxHealth, currentHealth);            
 
             if (currentHealth > 100) currentHealth = 100;
             OnHealthChanged(maxHealth, currentHealth);

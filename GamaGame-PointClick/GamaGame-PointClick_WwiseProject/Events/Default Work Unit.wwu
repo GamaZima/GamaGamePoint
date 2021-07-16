@@ -5,23 +5,12 @@
 			<ChildrenList>
 				<Folder Name="Player" ID="{0F165898-822A-4156-A70E-A6C9153802D6}" ShortID="53728848">
 					<ChildrenList>
-						<Event Name="FootstepPlay" ID="{A476A554-B9CC-4702-8F40-73378F384EC4}">
-							<ChildrenList>
-								<Action Name="" ID="{166FAED7-EAD3-4343-875C-83F7BD2A771B}" ShortID="388154111">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Footstep" ID="{48B02D13-6F30-4547-A594-8B54E3055577}" WorkUnitID="{84B4F838-196E-4372-B5B8-060FB7F80638}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="AttackPlay" ID="{D734032C-C6A8-4BCE-96D9-99A692FF7D52}">
 							<ChildrenList>
 								<Action Name="" ID="{FE956FC2-0388-411D-AFBD-223F760AA3F4}" ShortID="324883426">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Attack" ID="{1370FC17-CB91-480D-A993-B2CEED3E4A7D}" WorkUnitID="{84B4F838-196E-4372-B5B8-060FB7F80638}"/>
+											<ObjectRef Name="Attack" ID="{1370FC17-CB91-480D-A993-B2CEED3E4A7D}" WorkUnitID="{0FBE603A-5A04-4FD4-A4ED-D4685DC3C9AD}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -42,19 +31,61 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Fire" ID="{993BC18C-3D91-49C7-9DDE-C32335845A17}">
-							<ChildrenList>
-								<Action Name="" ID="{A865837D-BA4A-4E5B-946A-CF7BF4F9DA69}" ShortID="554759868">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Fire" ID="{143C3BCB-EC5F-4D3A-AFE3-C7B808A8EFFE}" WorkUnitID="{AF4116DC-7F5E-4DE2-A14F-F4B8C9F06A22}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="SFX_3D_Campfire" ID="{28B82969-1B2C-4998-BC1B-ABD5BA698793}">
+					<ChildrenList>
+						<Action Name="" ID="{5472A66B-44C0-4208-9DDB-42640FC6472D}" ShortID="782020776">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Campfire" ID="{143C3BCB-EC5F-4D3A-AFE3-C7B808A8EFFE}" WorkUnitID="{AF4116DC-7F5E-4DE2-A14F-F4B8C9F06A22}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5D0195C9-1A4B-4A38-A165-39DC6F74D1D0}" ShortID="263524636">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64" Value="50">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{71603A4D-7D89-46B9-BECF-80A518187CB7}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="40"/>
+													<Property Name="Min" Type="Real64" Value="-40"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Campfire" ID="{143C3BCB-EC5F-4D3A-AFE3-C7B808A8EFFE}" WorkUnitID="{AF4116DC-7F5E-4DE2-A14F-F4B8C9F06A22}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_3D_Campfire_stop" ID="{1BE6BB89-9711-4BF1-A833-2CBC78EE99C9}">
+					<ChildrenList>
+						<Action Name="" ID="{FCDD7F6F-5FBD-47B2-A44A-50427A0EC060}" ShortID="89092374">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Campfire" ID="{143C3BCB-EC5F-4D3A-AFE3-C7B808A8EFFE}" WorkUnitID="{AF4116DC-7F5E-4DE2-A14F-F4B8C9F06A22}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<WorkUnit Name="CharacterLocomotion" ID="{35F4FA34-45AF-4EE8-A53C-AA2BE3EE4712}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

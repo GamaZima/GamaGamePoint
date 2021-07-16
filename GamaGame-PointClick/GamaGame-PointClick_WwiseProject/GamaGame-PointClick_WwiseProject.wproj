@@ -11957,13 +11957,13 @@
 					<WorkUnit Name="SoundBanks" ID="{C98E673F-A24C-48A8-960F-10565FFE70A0}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="SoundBanks\DecodedBanks">
-					<WorkUnit Name="DecodedBanks" ID="{2962FC34-E96D-4C8B-AF07-898F9618C437}" PersistMode="Standalone"/>
+					<WorkUnit Name="DecodedBanks" ID="{6EAE933F-A83A-4A4A-AC03-2400CECEF267}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="SoundBanks\DecodedBanks\English(US)">
-					<WorkUnit Name="English(US)" ID="{B2F51488-9CE5-447A-89F4-1CB59341A559}" PersistMode="Standalone"/>
+					<WorkUnit Name="English(US)" ID="{4E5F33F9-105B-46C0-8714-22A8BEC87326}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="SoundBanks\English(US)">
-					<WorkUnit Name="English(US)" ID="{24D743EB-C1EC-4FAB-BB5F-161C18F94714}" PersistMode="Standalone"/>
+					<WorkUnit Name="English(US)" ID="{E3B00539-BF4E-42EE-91E1-79CA890EC422}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Soundcaster Sessions">
 					<WorkUnit Name="Soundcaster Sessions" ID="{4C96B38B-3DB4-40C7-91C9-665510E38993}" PersistMode="Standalone"/>

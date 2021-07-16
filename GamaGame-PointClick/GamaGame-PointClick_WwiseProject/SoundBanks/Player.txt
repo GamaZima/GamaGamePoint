@@ -1,32 +1,26 @@
 Event	ID	Name			Wwise Object Path	Notes
+	609107734	fs_char_rightfoot_run			\Default Work Unit\CharacterLocomotion\Footsteps\fs_char_rightfoot_run	
+	1300477107	fs_char_leftfoot_run			\Default Work Unit\CharacterLocomotion\Footsteps\fs_char_leftfoot_run	
+	1331250639	fs_char_leftfoot_walk			\Default Work Unit\CharacterLocomotion\Footsteps\fs_char_leftfoot_walk	
 	3729299015	AttackPlay			\Default Work Unit\Player\AttackPlay	
-	4039405217	FootstepPlay			\Default Work Unit\Player\FootstepPlay	
+	4232318616	fs_char_rightfoot_walk			\Default Work Unit\CharacterLocomotion\Footsteps\fs_char_rightfoot_walk	
 
-Switch Group	ID	Name			Wwise Object Path	Notes
-	3287431056	FootstepMaterial			\Default Work Unit\FootstepMaterial	
-
-Switch	ID	Name	Switch Group			Notes
-	841620460	Concrete	FootstepMaterial			
-	4248645337	Grass	FootstepMaterial			
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2977442876	RTPC_SpeedOfCharacter			\Default Work Unit\Locomotion\RTPC_SpeedOfCharacter	
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	182163975	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Player\Knight\Attack\Voice\New Sound SFX\Wwise Silence	
+	182163975	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Player\Loco\Attack\Voice\New Sound SFX\Wwise Silence	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	70892808	GG-Attack-Foley-3	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Attack-Foley-3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Knight\Attack\Foley\GG-Attack-Foley-3		185024
-	144250917	GG-Attack-Voice-1	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Attack-Voice-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Knight\Attack\Voice\GG-Attack-Voice-1		165440
-	218582748	GG-Attack-Foley-1	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Attack-Foley-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Knight\Attack\Foley\GG-Attack-Foley-1		165440
-	252390871	GG-Attack-Voice-3	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Attack-Voice-3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Knight\Attack\Voice\GG-Attack-Voice-3		185024
-	257132555	GG-Footstep-Foley_5	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Footstep-Foley_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Knight\Footstep\FootstepMaterial\FootstepGrass\GG-Footstep-Foley_5		83008
-	356598623	GG-Footstep-Foley_1	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Footstep-Foley_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Knight\Footstep\FootstepMaterial\FootstepGrass\GG-Footstep-Foley_1		103680
-	413841410	GG-Footstep-Foley_2	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Footstep-Foley_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Knight\Footstep\FootstepMaterial\FootstepGrass\GG-Footstep-Foley_2		111424
-	492125931	GG-Footstep-Foley_4	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Footstep-Foley_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Knight\Footstep\FootstepMaterial\FootstepGrass\GG-Footstep-Foley_4		81984
-	635487507	GG-Footstep-Foot_3	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Footstep-Foot_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Knight\Footstep\FootstepsFoleyArmor\GG-Footstep-Foot_3		83008
-	702848763	GG-Attack-Voice-2	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Attack-Voice-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Knight\Attack\Voice\GG-Attack-Voice-2		153664
-	742948990	GG-Attack-Foley-2	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Attack-Foley-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Knight\Attack\Foley\GG-Attack-Foley-2		153664
-	764044852	GG-Footstep-Foot_1	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Footstep-Foot_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Knight\Footstep\FootstepsFoleyArmor\GG-Footstep-Foot_1		103680
-	795314662	GG-Footstep-Foot_5	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Footstep-Foot_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Knight\Footstep\FootstepsFoleyArmor\GG-Footstep-Foot_5		71360
-	817353474	GG-Footstep-Foot_4	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Footstep-Foot_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Knight\Footstep\FootstepsFoleyArmor\GG-Footstep-Foot_4		69440
-	817753517	GG-Footstep-Foley_3	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Footstep-Foley_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Knight\Footstep\FootstepMaterial\FootstepGrass\GG-Footstep-Foley_3		99392
-	904556728	GG-Footstep-Foot_2	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Footstep-Foot_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Knight\Footstep\FootstepsFoleyArmor\GG-Footstep-Foot_2		69952
+	70892808	GG-Attack-Foley-3	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Attack-Foley-3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Loco\Attack\Foley\GG-Attack-Foley-3		185024
+	144250917	GG-Attack-Voice-1	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Attack-Voice-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Loco\Attack\Voice\GG-Attack-Voice-1		165440
+	218582748	GG-Attack-Foley-1	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Attack-Foley-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Loco\Attack\Foley\GG-Attack-Foley-1		165440
+	252390871	GG-Attack-Voice-3	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Attack-Voice-3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Loco\Attack\Voice\GG-Attack-Voice-3		185024
+	257132555	GG-Footstep-Foley_5	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Footstep-Foley_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Loco\Footsteps\FootstepGrass_run\GG-Footstep-Foley_5		83008
+	356598623	GG-Footstep-Foley_1	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Footstep-Foley_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Loco\Footsteps\FootstepGrass_run\GG-Footstep-Foley_1		103680
+	413841410	GG-Footstep-Foley_2	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Footstep-Foley_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Loco\Footsteps\FootstepGrass_run\GG-Footstep-Foley_2		111424
+	492125931	GG-Footstep-Foley_4	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Footstep-Foley_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Loco\Footsteps\FootstepGrass_run\GG-Footstep-Foley_4		81984
+	702848763	GG-Attack-Voice-2	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Attack-Voice-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Loco\Attack\Voice\GG-Attack-Voice-2		153664
+	742948990	GG-Attack-Foley-2	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Attack-Foley-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Loco\Attack\Foley\GG-Attack-Foley-2		153664
+	817753517	GG-Footstep-Foley_3	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Mac\SFX\GG-Footstep-Foley_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Loco\Footsteps\FootstepGrass_run\GG-Footstep-Foley_3		99392
 

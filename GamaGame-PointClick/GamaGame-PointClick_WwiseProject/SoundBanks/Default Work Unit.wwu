@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{B8B0FB1B-1BE0-469D-9749-88D057CC544B}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{018DF52F-2FBB-465D-9F15-24AC2983F13D}" SchemaVersion="103">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{B8B0FB1B-1BE0-469D-9749-88D057CC544B}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{018DF52F-2FBB-465D-9F15-24AC2983F13D}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Player" ID="{EC786740-7E73-45D2-8571-3FE681B292CB}">
+				<SoundBank Name="Player" ID="{D7520A92-55F5-4724-885F-94EDDDAA348F}">
 					<ObjectInclusionList>
-						<ObjectRef Name="FootstepPlay" ID="{A476A554-B9CC-4702-8F40-73378F384EC4}" WorkUnitID="{5D02EA69-9A0F-46E3-8A05-20657B425854}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="fs_char_leftfoot_walk" ID="{9D04C73A-1D38-450B-9D52-F82F95C181DE}" WorkUnitID="{254BE765-DE9E-4A5C-AC42-2B52C6CAFF50}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="fs_char_rightfoot_walk" ID="{B65055E4-C13D-4596-8805-BA4343396DA7}" WorkUnitID="{254BE765-DE9E-4A5C-AC42-2B52C6CAFF50}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="fs_char_leftfoot_run" ID="{A476A554-B9CC-4702-8F40-73378F384EC4}" WorkUnitID="{254BE765-DE9E-4A5C-AC42-2B52C6CAFF50}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="fs_char_rightfoot_run" ID="{47606F53-40FD-4AD5-952E-A6A42FFFC31F}" WorkUnitID="{254BE765-DE9E-4A5C-AC42-2B52C6CAFF50}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="AttackPlay" ID="{D734032C-C6A8-4BCE-96D9-99A692FF7D52}" WorkUnitID="{5D02EA69-9A0F-46E3-8A05-20657B425854}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="Ambience" ID="{6584AC45-9482-4263-B73A-4EBCF9FAA53B}">
+				<SoundBank Name="Ambience" ID="{31735B66-0D81-4F82-AA60-E8D1AC44F7A3}">
 					<ObjectInclusionList>
-						<ObjectRef Name="ExteriorBackground" ID="{D4AA4F7B-0230-4363-88D0-06B4FD79B64C}" WorkUnitID="{5D02EA69-9A0F-46E3-8A05-20657B425854}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Fire" ID="{993BC18C-3D91-49C7-9DDE-C32335845A17}" WorkUnitID="{5D02EA69-9A0F-46E3-8A05-20657B425854}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_3D_Campfire" ID="{28B82969-1B2C-4998-BC1B-ABD5BA698793}" WorkUnitID="{5D02EA69-9A0F-46E3-8A05-20657B425854}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_3D_Campfire_stop" ID="{1BE6BB89-9711-4BF1-A833-2CBC78EE99C9}" WorkUnitID="{5D02EA69-9A0F-46E3-8A05-20657B425854}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

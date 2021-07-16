@@ -37,7 +37,7 @@ public class CharacterCombat : MonoBehaviour
 
     public void Attack (CharacterStats targetStats)
     {
-        if (attackCooldown <= 0f)
+        if (targetStats.isAlive = true && attackCooldown <= 0f)
         {
             opponentStats = targetStats;
             if (OnAttack != null)
@@ -47,7 +47,6 @@ public class CharacterCombat : MonoBehaviour
             InCombat = true;
             lastAttackTime = Time.time;
         }
-
     }
 
     public void AttackHit_AnimationEvent()
@@ -57,6 +56,8 @@ public class CharacterCombat : MonoBehaviour
         if (opponentStats.currentHealth <= 0)
         {
             InCombat = false;
+            opponentStats.isAlive = false;
+            
         }
     }
 

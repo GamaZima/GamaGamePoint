@@ -1870,12 +1870,11 @@
 					</ChildrenList>
 					<ObjectLists/>
 				</BlendContainer>
-				<Folder Name="Emitters" ID="{B521528E-BDEE-490D-ACA5-46CD9B2D5E05}" ShortID="20160606">
+				<Folder Name="3D_Emitters" ID="{B521528E-BDEE-490D-ACA5-46CD9B2D5E05}" ShortID="20160606">
 					<ChildrenList>
-						<BlendContainer Name="Fire" ID="{143C3BCB-EC5F-4D3A-AFE3-C7B808A8EFFE}" ShortID="818106850">
+						<BlendContainer Name="Campfire" ID="{143C3BCB-EC5F-4D3A-AFE3-C7B808A8EFFE}" ShortID="818106850">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
-								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="80"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>10</Value>
@@ -1884,7 +1883,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Campfire" ID="{5E39B9DD-7C4E-4C06-8B0C-C7CCF7544E46}" WorkUnitID="{90A4DB85-83C1-452B-8626-DE8FB39389DB}"/>
+									<ObjectRef Name="25Meters" ID="{59391BD9-49A4-42E4-BAD4-C50660C19D98}" WorkUnitID="{90A4DB85-83C1-452B-8626-DE8FB39389DB}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F41534BF-AC3B-412E-A547-AC52D7DD2D45}"/>

@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{BAE7CCDB-9A20-4054-80C2-EAC358585490}" PersistMode="Standalone">
 			<ChildrenList>
 				<GameParameter Name="Volume" ID="{DF75F578-3DC2-4F7B-ACE2-AF197F00F629}"/>
+				<WorkUnit Name="Locomotion" ID="{8687D841-2851-4640-A7EB-639E6C1C102F}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

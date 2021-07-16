@@ -27,6 +27,8 @@ public class EnemyStats : CharacterStats
 
         anim.SetTrigger("die");
         GetComponent<EnemyController>().enabled = false;
+        GetComponent<Enemy>().enabled = false;
+
         // Drop loot
         // Destroy(gameObject);
     }

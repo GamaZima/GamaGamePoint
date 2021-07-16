@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics/Default Work Unit
     guid: fd90e68267748544a7418d94cddee958
     GuidInternal: 
-    m_lastTime: -8585773692614775808
+    m_lastTime: -8585769545844775808
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 5075cf48908d5547a5f45e71b948fc39
     GuidInternal: 
-    m_lastTime: -8585773692614775808
+    m_lastTime: -8585769545844775808
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -62,14 +62,14 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Default Work Unit
       ObjectType: 12
-      guid: 1bfbb0b8e01b9d46974988d057cc544b
+      guid: 2ff58d01bb2f5d469f1524ac2983f13d
     ParentPath: SoundBanks/Default Work Unit
-    guid: 1bfbb0b8e01b9d46974988d057cc544b
+    guid: 2ff58d01bb2f5d469f1524ac2983f13d
     GuidInternal: 
-    m_lastTime: -8585770961084775808
+    m_lastTime: -8585752001454775808
     List:
     - name: Ambience
-      guid: 45ac846582946342b73a4ebcf9faa53b
+      guid: 665b7331810d824faa60e8d1ac44f7a3
       id: 85412153
       PathAndIcons:
       - ElementName: SoundBanks
@@ -77,13 +77,13 @@ MonoBehaviour:
         guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
-        guid: 1bfbb0b8e01b9d46974988d057cc544b
+        guid: 2ff58d01bb2f5d469f1524ac2983f13d
       - ElementName: Ambience
         ObjectType: 7
-        guid: 45ac846582946342b73a4ebcf9faa53b
+        guid: 665b7331810d824faa60e8d1ac44f7a3
       Path: SoundBanks/Default Work Unit/Ambience
     - name: Player
-      guid: 406778ec737ed24585713fe681b292cb
+      guid: 920a52d7f5552447885f94edddaa348f
       id: 1069431850
       PathAndIcons:
       - ElementName: SoundBanks
@@ -91,12 +91,28 @@ MonoBehaviour:
         guid: 00000000000000000000000000000000
       - ElementName: Default Work Unit
         ObjectType: 12
-        guid: 1bfbb0b8e01b9d46974988d057cc544b
+        guid: 2ff58d01bb2f5d469f1524ac2983f13d
       - ElementName: Player
         ObjectType: 7
-        guid: 406778ec737ed24585713fe681b292cb
+        guid: 920a52d7f5552447885f94edddaa348f
       Path: SoundBanks/Default Work Unit/Player
   EventWwu:
+  - PhysicalPath: Events/CharacterLocomotion.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 69ea025d0f9ae3468a0520657b425854
+    - ElementName: CharacterLocomotion
+      ObjectType: 12
+      guid: 34faf435af45e84ea53caa2be3ee4712
+    ParentPath: Events/Default Work Unit/CharacterLocomotion
+    guid: 34faf435af45e84ea53caa2be3ee4712
+    GuidInternal: 
+    m_lastTime: -8585752046674775808
+    List: []
   - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -108,7 +124,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 69ea025d0f9ae3468a0520657b425854
     GuidInternal: 
-    m_lastTime: -8585770961084775808
+    m_lastTime: -8585752001454775808
     List:
     - name: Ambiences
       guid: 0703d1c62aa3124f9fd3c01b51358ba0
@@ -144,7 +160,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 2c0334d7a8c6ce4b96d999a692ff7d52
       Path: Events/Default Work Unit/Player/AttackPlay
-      maxAttenuation: 0
+      maxAttenuation: 25
       maxDuration: 1.059463
       minDuration: 0.755099
     - name: ExteriorBackground
@@ -167,46 +183,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Fire
-      guid: 8cc13b99913dc7499ddec32335845a17
-      id: 2678880713
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 69ea025d0f9ae3468a0520657b425854
-      - ElementName: Ambiences
-        ObjectType: 4
-        guid: 0703d1c62aa3124f9fd3c01b51358ba0
-      - ElementName: Fire
-        ObjectType: 3
-        guid: 8cc13b99913dc7499ddec32335845a17
-      Path: Events/Default Work Unit/Ambiences/Fire
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: FootstepPlay
-      guid: 54a576a4ccb902478f4073378f384ec4
-      id: 4039405217
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 69ea025d0f9ae3468a0520657b425854
-      - ElementName: Player
-        ObjectType: 4
-        guid: 9858160f2a825641a70ea6c9153802d6
-      - ElementName: FootstepPlay
-        ObjectType: 3
-        guid: 54a576a4ccb902478f4073378f384ec4
-      Path: Events/Default Work Unit/Player/FootstepPlay
-      maxAttenuation: 0
-      maxDuration: 0.614489
-      minDuration: 0.40272
     - name: Player
       guid: 9858160f2a825641a70ea6c9153802d6
       id: 1069431850
@@ -224,6 +200,151 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: SFX_3D_Campfire
+      guid: 6929b8282c1b9849bc1babd5ba698793
+      id: 1886971552
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 69ea025d0f9ae3468a0520657b425854
+      - ElementName: SFX_3D_Campfire
+        ObjectType: 3
+        guid: 6929b8282c1b9849bc1babd5ba698793
+      Path: Events/Default Work Unit/SFX_3D_Campfire
+      maxAttenuation: 25
+      maxDuration: -1
+      minDuration: -1
+    - name: SFX_3D_Campfire_stop
+      guid: 89bbe61b1197f14ba8332cbc78ee99c9
+      id: 1826039439
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 69ea025d0f9ae3468a0520657b425854
+      - ElementName: SFX_3D_Campfire_stop
+        ObjectType: 3
+        guid: 89bbe61b1197f14ba8332cbc78ee99c9
+      Path: Events/Default Work Unit/SFX_3D_Campfire_stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  - PhysicalPath: Events/Footsteps.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 69ea025d0f9ae3468a0520657b425854
+    - ElementName: CharacterLocomotion
+      ObjectType: 12
+      guid: 34faf435af45e84ea53caa2be3ee4712
+    - ElementName: Footsteps
+      ObjectType: 12
+      guid: 65e74b259ede5c4aac422b52c6caff50
+    ParentPath: Events/Default Work Unit/CharacterLocomotion/Footsteps
+    guid: 65e74b259ede5c4aac422b52c6caff50
+    GuidInternal: 
+    m_lastTime: -8585752001444775808
+    List:
+    - name: fs_char_leftfoot_run
+      guid: 54a576a4ccb902478f4073378f384ec4
+      id: 1300477107
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 69ea025d0f9ae3468a0520657b425854
+      - ElementName: CharacterLocomotion
+        ObjectType: 12
+        guid: 34faf435af45e84ea53caa2be3ee4712
+      - ElementName: Footsteps
+        ObjectType: 12
+        guid: 65e74b259ede5c4aac422b52c6caff50
+      - ElementName: fs_char_leftfoot_run
+        ObjectType: 3
+        guid: 54a576a4ccb902478f4073378f384ec4
+      Path: Events/Default Work Unit/CharacterLocomotion/Footsteps/fs_char_leftfoot_run
+      maxAttenuation: 25
+      maxDuration: 0.614489
+      minDuration: 0.40272
+    - name: fs_char_leftfoot_walk
+      guid: 3ac7049d381d0b459d52f82f95c181de
+      id: 1331250639
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 69ea025d0f9ae3468a0520657b425854
+      - ElementName: CharacterLocomotion
+        ObjectType: 12
+        guid: 34faf435af45e84ea53caa2be3ee4712
+      - ElementName: Footsteps
+        ObjectType: 12
+        guid: 65e74b259ede5c4aac422b52c6caff50
+      - ElementName: fs_char_leftfoot_walk
+        ObjectType: 3
+        guid: 3ac7049d381d0b459d52f82f95c181de
+      Path: Events/Default Work Unit/CharacterLocomotion/Footsteps/fs_char_leftfoot_walk
+      maxAttenuation: 25
+      maxDuration: 0.614489
+      minDuration: 0.40272
+    - name: fs_char_rightfoot_run
+      guid: 536f6047fd40d54a952ea6a42fffc31f
+      id: 609107734
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 69ea025d0f9ae3468a0520657b425854
+      - ElementName: CharacterLocomotion
+        ObjectType: 12
+        guid: 34faf435af45e84ea53caa2be3ee4712
+      - ElementName: Footsteps
+        ObjectType: 12
+        guid: 65e74b259ede5c4aac422b52c6caff50
+      - ElementName: fs_char_rightfoot_run
+        ObjectType: 3
+        guid: 536f6047fd40d54a952ea6a42fffc31f
+      Path: Events/Default Work Unit/CharacterLocomotion/Footsteps/fs_char_rightfoot_run
+      maxAttenuation: 25
+      maxDuration: 0.614489
+      minDuration: 0.40272
+    - name: fs_char_rightfoot_walk
+      guid: e45550b63dc196458805ba4343396da7
+      id: 4232318616
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 69ea025d0f9ae3468a0520657b425854
+      - ElementName: CharacterLocomotion
+        ObjectType: 12
+        guid: 34faf435af45e84ea53caa2be3ee4712
+      - ElementName: Footsteps
+        ObjectType: 12
+        guid: 65e74b259ede5c4aac422b52c6caff50
+      - ElementName: fs_char_rightfoot_walk
+        ObjectType: 3
+        guid: e45550b63dc196458805ba4343396da7
+      Path: Events/Default Work Unit/CharacterLocomotion/Footsteps/fs_char_rightfoot_walk
+      maxAttenuation: 25
+      maxDuration: 0.614489
+      minDuration: 0.40272
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -236,7 +357,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: dbcce7ba209a544080c2eac358585490
     GuidInternal: 
-    m_lastTime: -8585771009244775808
+    m_lastTime: -8585752001454775808
     List:
     - name: Volume
       guid: 78f575dfc23d7b4face2af197f00f629
@@ -252,6 +373,39 @@ MonoBehaviour:
         ObjectType: 13
         guid: 78f575dfc23d7b4face2af197f00f629
       Path: Game Parameters/Default Work Unit/Volume
+  - PhysicalPath: Game Parameters/Locomotion.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: dbcce7ba209a544080c2eac358585490
+    - ElementName: Locomotion
+      ObjectType: 12
+      guid: 41d8878651284046a7eb639e6c1c102f
+    ParentPath: Game Parameters/Default Work Unit/Locomotion
+    guid: 41d8878651284046a7eb639e6c1c102f
+    GuidInternal: 
+    m_lastTime: -8585752001444775808
+    List:
+    - name: RTPC_SpeedOfCharacter
+      guid: c97aba7bfea8b548b9bf8841fd10f9f4
+      id: 2977442876
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dbcce7ba209a544080c2eac358585490
+      - ElementName: Locomotion
+        ObjectType: 12
+        guid: 41d8878651284046a7eb639e6c1c102f
+      - ElementName: RTPC_SpeedOfCharacter
+        ObjectType: 13
+        guid: c97aba7bfea8b548b9bf8841fd10f9f4
+      Path: Game Parameters/Default Work Unit/Locomotion/RTPC_SpeedOfCharacter
   StateWwu:
   - PhysicalPath: States/Default Work Unit.wwu
     PathAndIcons:
@@ -264,7 +418,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: 7aff4b821e8c474d845ae3cad8a30bce
     GuidInternal: 
-    m_lastTime: -8585773692614775808
+    m_lastTime: -8585769545844775808
     List: []
   SwitchWwu:
   - PhysicalPath: Switches/Default Work Unit.wwu
@@ -278,7 +432,7 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: a19163c54b9b3b4f8e23de955c530a78
     GuidInternal: 
-    m_lastTime: -8585773641084775808
+    m_lastTime: -8585769545854775808
     List:
     - name: FootstepMaterial
       guid: 0462ebd643143f4fb715a3d32525526c
@@ -342,10 +496,10 @@ MonoBehaviour:
     ParentPath: Triggers/Default Work Unit
     guid: dfd8dfc07a3d0d4fa07705c81195c69a
     GuidInternal: 
-    m_lastTime: -8585773692614775808
+    m_lastTime: -8585769545854775808
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000050000000600000007000000090000000a0000000b0000000d0000000e000000
+  ExpandedWaapiItemIds: 060000000d0000000e0000000f000000110000001200000013000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/dopemacmini/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Unity/GamaGamePoint/GamaGame-PointClick/GamaGame-PointClick_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/dopemacmini/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Unity/GamaGamePoint/GamaGame-PointClick/GamaGame-PointClick_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/dopemacmini/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Unity/GamaGamePoint/GamaGame-PointClick/GamaGame-PointClick_WwiseProject/GeneratedSoundBanks/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/dopemacmini/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Unity/GamaGamePoint/GamaGame-PointClick/GamaGame-PointClick_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="85412153" Language="SFX" Hash="4274754722">
+			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
+			<ShortName>Ambience</ShortName>
+			<Path>Ambience.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2539570211" Name="ExteriorBackground" ObjectPath="\Events\Default Work Unit\Ambiences\ExteriorBackground" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="11209624" Language="SFX">
+							<ShortName>BG_WIND_CENTER.wav</ShortName>
+							<Path>SFX/BG_WIND_CENTER_0E6AF35E.wem</Path>
+						</File>
+						<File Id="85343884" Language="SFX">
+							<ShortName>ONESHOT_OWL_1.wav</ShortName>
+							<Path>SFX/ONESHOT_OWL_1_10C4C929.wem</Path>
+						</File>
+						<File Id="132030266" Language="SFX">
+							<ShortName>BG_CRICKETSBIRDS_BINAURAL.wav</ShortName>
+							<Path>SFX/BG_CRICKETSBIRDS_BINAURAL_49CC84B1.wem</Path>
+						</File>
+						<File Id="154548441" Language="SFX">
+							<ShortName>ONESHOT_BIRDS_FLYBY_3.wav</ShortName>
+							<Path>SFX/ONESHOT_BIRDS_FLYBY_3_74889A23.wem</Path>
+						</File>
+						<File Id="162200329" Language="SFX">
+							<ShortName>ONESHOT_FROG_A_2.wav</ShortName>
+							<Path>SFX/ONESHOT_FROG_A_2_10C4C929.wem</Path>
+						</File>
+						<File Id="261267692" Language="SFX">
+							<ShortName>BG_CRICKETS_FREE.wav</ShortName>
+							<Path>SFX/BG_CRICKETS_FREE_85354881.wem</Path>
+						</File>
+						<File Id="338365507" Language="SFX">
+							<ShortName>ONESHOT_FROG_B_4.wav</ShortName>
+							<Path>SFX/ONESHOT_FROG_B_4_10C4C929.wem</Path>
+						</File>
+						<File Id="437625213" Language="SFX">
+							<ShortName>ONESHOT_FROG_B_5.wav</ShortName>
+							<Path>SFX/ONESHOT_FROG_B_5_10C4C929.wem</Path>
+						</File>
+						<File Id="497292655" Language="SFX">
+							<ShortName>BG_CRICKETS_LEFT.wav</ShortName>
+							<Path>SFX/BG_CRICKETS_LEFT_23E3D596.wem</Path>
+						</File>
+						<File Id="559162269" Language="SFX">
+							<ShortName>BG_CRICKETS_RIGHT.wav</ShortName>
+							<Path>SFX/BG_CRICKETS_RIGHT_749EBACC.wem</Path>
+						</File>
+						<File Id="666211644" Language="SFX">
+							<ShortName>ONESHOT_CRICKETSBIRDS_1.wav</ShortName>
+							<Path>SFX/ONESHOT_CRICKETSBIRDS_1_10C4C929.wem</Path>
+						</File>
+						<File Id="681381302" Language="SFX">
+							<ShortName>ONESHOT_FROG_B_1.wav</ShortName>
+							<Path>SFX/ONESHOT_FROG_B_1_10C4C929.wem</Path>
+						</File>
+						<File Id="712918141" Language="SFX">
+							<ShortName>ONESHOT_FROG_B_2.wav</ShortName>
+							<Path>SFX/ONESHOT_FROG_B_2_10C4C929.wem</Path>
+						</File>
+						<File Id="725706964" Language="SFX">
+							<ShortName>ONESHOT_BIRDS_FLYBY_2.wav</ShortName>
+							<Path>SFX/ONESHOT_BIRDS_FLYBY_2_9E33BABD.wem</Path>
+						</File>
+						<File Id="731647904" Language="SFX">
+							<ShortName>ONESHOT_OWL_2.wav</ShortName>
+							<Path>SFX/ONESHOT_OWL_2_10C4C929.wem</Path>
+						</File>
+						<File Id="892277952" Language="SFX">
+							<ShortName>ONESHOT_FROG_A_1.wav</ShortName>
+							<Path>SFX/ONESHOT_FROG_A_1_10C4C929.wem</Path>
+						</File>
+						<File Id="951045108" Language="SFX">
+							<ShortName>ONESHOT_HAWK_1.wav</ShortName>
+							<Path>SFX/ONESHOT_HAWK_1_10C4C929.wem</Path>
+						</File>
+						<File Id="951494063" Language="SFX">
+							<ShortName>ONESHOT_OWL_3.wav</ShortName>
+							<Path>SFX/ONESHOT_OWL_3_10C4C929.wem</Path>
+						</File>
+						<File Id="981813819" Language="SFX">
+							<ShortName>ONESHOT_FROG_B_3.wav</ShortName>
+							<Path>SFX/ONESHOT_FROG_B_3_10C4C929.wem</Path>
+						</File>
+						<File Id="1027630177" Language="SFX">
+							<ShortName>ONESHOT_FROG_A_3.wav</ShortName>
+							<Path>SFX/ONESHOT_FROG_A_3_10C4C929.wem</Path>
+						</File>
+						<File Id="1071733402" Language="SFX">
+							<ShortName>ONESHOT_BIRDS_FLYBY_1.wav</ShortName>
+							<Path>SFX/ONESHOT_BIRDS_FLYBY_1_5921CC87.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2678880713" Name="Fire" ObjectPath="\Events\Default Work Unit\Ambiences\Fire" MaxAttenuation="30.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="205939359" Language="SFX">
+							<ShortName>FIRE_B_2.wav</ShortName>
+							<Path>SFX/FIRE_B_2_10C4C929.wem</Path>
+						</File>
+						<File Id="533416641" Language="SFX">
+							<ShortName>FIRE_B_1.wav</ShortName>
+							<Path>SFX/FIRE_B_1_767EF5B8.wem</Path>
+						</File>
+						<File Id="678795498" Language="SFX">
+							<ShortName>FIRE_B_4.wav</ShortName>
+							<Path>SFX/FIRE_B_4_10C4C929.wem</Path>
+						</File>
+						<File Id="862637347" Language="SFX">
+							<ShortName>FIRE_B_3.wav</ShortName>
+							<Path>SFX/FIRE_B_3_10C4C929.wem</Path>
+						</File>
+						<File Id="915484703" Language="SFX">
+							<ShortName>FIRE_A.wav</ShortName>
+							<Path>SFX/FIRE_A_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1069431850" Language="SFX" Hash="3825035097">
+			<ObjectPath>\SoundBanks\Default Work Unit\Player</ObjectPath>
+			<ShortName>Player</ShortName>
+			<Path>Player.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3729299015" Name="AttackPlay" ObjectPath="\Events\Default Work Unit\Player\AttackPlay" MaxAttenuation="35.000000" DurationType="OneShot" DurationMin="0.755099" DurationMax="1.059463">
+					<IncludedMemoryFiles>
+						<File Id="70892808" Language="SFX">
+							<ShortName>GG-Attack-Foley-3.wav</ShortName>
+							<Path>SFX/GG-Attack-Foley-3_10C4C929.wem</Path>
+						</File>
+						<File Id="144250917" Language="SFX">
+							<ShortName>GG-Attack-Voice-1.wav</ShortName>
+							<Path>SFX/GG-Attack-Voice-1_10C4C929.wem</Path>
+						</File>
+						<File Id="218582748" Language="SFX">
+							<ShortName>GG-Attack-Foley-1.wav</ShortName>
+							<Path>SFX/GG-Attack-Foley-1_10C4C929.wem</Path>
+						</File>
+						<File Id="252390871" Language="SFX">
+							<ShortName>GG-Attack-Voice-3.wav</ShortName>
+							<Path>SFX/GG-Attack-Voice-3_10C4C929.wem</Path>
+						</File>
+						<File Id="702848763" Language="SFX">
+							<ShortName>GG-Attack-Voice-2.wav</ShortName>
+							<Path>SFX/GG-Attack-Voice-2_10C4C929.wem</Path>
+						</File>
+						<File Id="742948990" Language="SFX">
+							<ShortName>GG-Attack-Foley-2.wav</ShortName>
+							<Path>SFX/GG-Attack-Foley-2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4039405217" Name="FootstepPlay" ObjectPath="\Events\Default Work Unit\Player\FootstepPlay" MaxAttenuation="35.000000" DurationType="OneShot" DurationMin="0.399246" DurationMax="0.619836">
+					<IncludedMemoryFiles>
+						<File Id="257132555" Language="SFX">
+							<ShortName>GG-Footstep-Foley_5.wav</ShortName>
+							<Path>SFX/GG-Footstep-Foley_5_10C4C929.wem</Path>
+						</File>
+						<File Id="356598623" Language="SFX">
+							<ShortName>GG-Footstep-Foley_1.wav</ShortName>
+							<Path>SFX/GG-Footstep-Foley_1_10C4C929.wem</Path>
+						</File>
+						<File Id="413841410" Language="SFX">
+							<ShortName>GG-Footstep-Foley_2.wav</ShortName>
+							<Path>SFX/GG-Footstep-Foley_2_10C4C929.wem</Path>
+						</File>
+						<File Id="492125931" Language="SFX">
+							<ShortName>GG-Footstep-Foley_4.wav</ShortName>
+							<Path>SFX/GG-Footstep-Foley_4_10C4C929.wem</Path>
+						</File>
+						<File Id="635487507" Language="SFX">
+							<ShortName>GG-Footstep-Foot_3.wav</ShortName>
+							<Path>SFX/GG-Footstep-Foot_3_10C4C929.wem</Path>
+						</File>
+						<File Id="764044852" Language="SFX">
+							<ShortName>GG-Footstep-Foot_1.wav</ShortName>
+							<Path>SFX/GG-Footstep-Foot_1_10C4C929.wem</Path>
+						</File>
+						<File Id="795314662" Language="SFX">
+							<ShortName>GG-Footstep-Foot_5.wav</ShortName>
+							<Path>SFX/GG-Footstep-Foot_5_10C4C929.wem</Path>
+						</File>
+						<File Id="817353474" Language="SFX">
+							<ShortName>GG-Footstep-Foot_4.wav</ShortName>
+							<Path>SFX/GG-Footstep-Foot_4_10C4C929.wem</Path>
+						</File>
+						<File Id="817753517" Language="SFX">
+							<ShortName>GG-Footstep-Foley_3.wav</ShortName>
+							<Path>SFX/GG-Footstep-Foley_3_10C4C929.wem</Path>
+						</File>
+						<File Id="904556728" Language="SFX">
+							<ShortName>GG-Footstep-Foot_2.wav</ShortName>
+							<Path>SFX/GG-Footstep-Foot_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{00527231-50FF-457B-9C8B-1B5B54D133AC}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{00527231-50FF-457B-9C8B-1B5B54D133AC}">
+							<Media>
+								<File Id="257132555"/>
+								<File Id="356598623"/>
+								<File Id="413841410"/>
+								<File Id="492125931"/>
+								<File Id="817753517"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A4682FFE-3976-4557-869B-E6AAA84F058F}">
+							<Media>
+								<File Id="257132555"/>
+								<File Id="356598623"/>
+								<File Id="413841410"/>
+								<File Id="492125931"/>
+								<File Id="817753517"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="3287431056" Name="FootstepMaterial" ObjectPath="\Switches\Default Work Unit\FootstepMaterial">
+					<Switches>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\FootstepMaterial\Grass"/>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\FootstepMaterial\Concrete"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1244130855">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

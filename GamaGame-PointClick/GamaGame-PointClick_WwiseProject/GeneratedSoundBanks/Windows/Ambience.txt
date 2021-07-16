@@ -1,38 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
-	2539570211	ExteriorBackground			\Default Work Unit\Ambiences\ExteriorBackground	
-	2678880713	Fire			\Default Work Unit\Ambiences\Fire	
-
-Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	343527260	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\Frogs\Frogs_B\Silence\Wwise Silence	
-	346034253	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\Birds\Silence\Wwise Silence	
-	441410080	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\BirdsFlyBy\Silence\Wwise Silence	
-	920232685	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\Owl\New Sound SFX\Wwise Silence	
+	1826039439	SFX_3D_Campfire_stop			\Default Work Unit\SFX_3D_Campfire_stop	
+	1886971552	SFX_3D_Campfire			\Default Work Unit\SFX_3D_Campfire	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	11209624	BG_WIND_CENTER	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\BG_WIND_CENTER_B1627E59.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\Background\BG_WIND_CENTER		6629376
-	85343884	ONESHOT_OWL_1	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\ONESHOT_OWL_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\Owl\ONESHOT_OWL_1		172096
-	132030266	BG_CRICKETSBIRDS_BINAURAL	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\BG_CRICKETSBIRDS_BINAURAL_65E14203.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\Background\BG_CRICKETSBIRDS_BINAURAL		6373504
-	154548441	ONESHOT_BIRDS_FLYBY_3	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\ONESHOT_BIRDS_FLYBY_3_8DAC857F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\BirdsFlyBy\ONESHOT_BIRDS_FLYBY_3		1243040
-	162200329	ONESHOT_FROG_A_2	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\ONESHOT_FROG_A_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\Frogs\Frogs_A\ONESHOT_FROG_A_2		413760
-	205939359	FIRE_B_2	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\FIRE_B_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Emitters\Fire\Fire_B\FIRE_B_2		966720
-	261267692	BG_CRICKETS_FREE	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\BG_CRICKETS_FREE_BDBA983A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\Background\BG_CRICKETS_FREE		6684800
-	338365507	ONESHOT_FROG_B_4	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\ONESHOT_FROG_B_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\Frogs\Frogs_B\ONESHOT_FROG_B_4		118848
-	437625213	ONESHOT_FROG_B_5_BIRD	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\ONESHOT_FROG_B_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\Frogs\Frogs_B\ONESHOT_FROG_B_5_BIRD		471104
-	497292655	BG_CRICKETS_LEFT	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\BG_CRICKETS_LEFT_3FE4E349.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\Background\BG_CRICKETS_LEFT		6373504
-	533416641	FIRE_B_1	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\FIRE_B_1_3CCFEA07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Emitters\Fire\Fire_B\FIRE_B_1		966784
-	559162269	BG_CRICKETS_RIGHT	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\BG_CRICKETS_RIGHT_7EE4CAA3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\Background\BG_CRICKETS_RIGHT		6373504
-	666211644	ONESHOT_CRICKETSBIRDS_1	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\ONESHOT_CRICKETSBIRDS_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\Birds\ONESHOT_CRICKETSBIRDS_1		942144
-	678795498	FIRE_B_4	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\FIRE_B_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Emitters\Fire\Fire_B\FIRE_B_4		966720
-	681381302	ONESHOT_FROG_B_1	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\ONESHOT_FROG_B_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\Frogs\Frogs_B\ONESHOT_FROG_B_1		348224
-	712918141	ONESHOT_FROG_B_2	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\ONESHOT_FROG_B_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\Frogs\Frogs_B\ONESHOT_FROG_B_2		329792
-	725706964	ONESHOT_BIRDS_FLYBY_2	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\ONESHOT_BIRDS_FLYBY_2_7548F560.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\BirdsFlyBy\ONESHOT_BIRDS_FLYBY_2		1116964
-	731647904	ONESHOT_OWL_2	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\ONESHOT_OWL_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\Owl\ONESHOT_OWL_2		364608
-	862637347	FIRE_B_3	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\FIRE_B_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Emitters\Fire\Fire_B\FIRE_B_3		966720
-	892277952	ONESHOT_FROG_A_1	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\ONESHOT_FROG_A_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\Frogs\Frogs_A\ONESHOT_FROG_A_1		225344
-	915484703	Fire_A	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\FIRE_A_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Emitters\Fire\Fire_A		1923264
-	951045108	ONESHOT_HAWK_1	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\ONESHOT_HAWK_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\Birds\ONESHOT_HAWK_1		51264
-	951494063	ONESHOT_OWL_3	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\ONESHOT_OWL_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\Owl\ONESHOT_OWL_3		241728
-	981813819	ONESHOT_FROG_B_3	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\ONESHOT_FROG_B_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\Frogs\Frogs_B\ONESHOT_FROG_B_3		213056
-	1027630177	ONESHOT_FROG_A_3	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\ONESHOT_FROG_A_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\Frogs\Frogs_A\ONESHOT_FROG_A_3		485440
-	1071733402	ONESHOT_BIRDS_FLYBY_1	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\ONESHOT_BIRDS_FLYBY_1_CA0974D5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\AmbienceBackground\BirdsFlyBy\ONESHOT_BIRDS_FLYBY_1		807060
+	205939359	FIRE_B_2	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\FIRE_B_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Emitters\Campfire\Fire_B\FIRE_B_2		966720
+	533416641	FIRE_B_1	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\FIRE_B_1_767EF5B8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Emitters\Campfire\Fire_B\FIRE_B_1		966784
+	678795498	FIRE_B_4	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\FIRE_B_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Emitters\Campfire\Fire_B\FIRE_B_4		966720
+	862637347	FIRE_B_3	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\FIRE_B_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Emitters\Campfire\Fire_B\FIRE_B_3		966720
+	915484703	Fire_A	Y:\Desktop\Unity\GamaGamePoint\GamaGame-PointClick\GamaGame-PointClick_WwiseProject\.cache\Windows\SFX\FIRE_A_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3D_Emitters\Campfire\Fire_A		1923264
 

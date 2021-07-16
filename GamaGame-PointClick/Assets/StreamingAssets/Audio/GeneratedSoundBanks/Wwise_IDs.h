@@ -14,9 +14,12 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID ATTACKPLAY = 3729299015U;
-        static const AkUniqueID EXTERIORBACKGROUND = 2539570211U;
-        static const AkUniqueID FIRE = 2678880713U;
-        static const AkUniqueID FOOTSTEPPLAY = 4039405217U;
+        static const AkUniqueID FS_CHAR_LEFTFOOT_RUN = 1300477107U;
+        static const AkUniqueID FS_CHAR_LEFTFOOT_WALK = 1331250639U;
+        static const AkUniqueID FS_CHAR_RIGHTFOOT_RUN = 609107734U;
+        static const AkUniqueID FS_CHAR_RIGHTFOOT_WALK = 4232318616U;
+        static const AkUniqueID SFX_3D_CAMPFIRE = 1886971552U;
+        static const AkUniqueID SFX_3D_CAMPFIRE_STOP = 1826039439U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -36,6 +39,7 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID RTPC_SPEEDOFCHARACTER = 2977442876U;
         static const AkUniqueID VOLUME = 2415836739U;
     } // namespace GAME_PARAMETERS
 

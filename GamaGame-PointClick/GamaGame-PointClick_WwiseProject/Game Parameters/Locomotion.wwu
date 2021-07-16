@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8687D841-2851-4640-A7EB-639E6C1C102F}" SchemaVersion="103" RootDocumentID="{BAE7CCDB-9A20-4054-80C2-EAC358585490}" ParentDocumentID="{BAE7CCDB-9A20-4054-80C2-EAC358585490}">
+	<GameParameters>
+		<WorkUnit Name="Locomotion" ID="{8687D841-2851-4640-A7EB-639E6C1C102F}" OwnerID="{BAE7CCDB-9A20-4054-80C2-EAC358585490}" PersistMode="Nested">
+			<ChildrenList>
+				<GameParameter Name="RTPC_SpeedOfCharacter" ID="{7BBA7AC9-A8FE-48B5-B9BF-8841FD10F9F4}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="3.5"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

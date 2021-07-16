@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{254BE765-DE9E-4A5C-AC42-2B52C6CAFF50}" SchemaVersion="103" RootDocumentID="{5D02EA69-9A0F-46E3-8A05-20657B425854}" ParentDocumentID="{35F4FA34-45AF-4EE8-A53C-AA2BE3EE4712}">
+	<Events>
+		<WorkUnit Name="Footsteps" ID="{254BE765-DE9E-4A5C-AC42-2B52C6CAFF50}" OwnerID="{35F4FA34-45AF-4EE8-A53C-AA2BE3EE4712}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="fs_char_leftfoot_run" ID="{A476A554-B9CC-4702-8F40-73378F384EC4}">
+					<ChildrenList>
+						<Action Name="" ID="{166FAED7-EAD3-4343-875C-83F7BD2A771B}" ShortID="388154111">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FootstepGrass_run" ID="{5C4FC21E-0D56-47F3-BC1C-BE9E99829E0E}" WorkUnitID="{0FBE603A-5A04-4FD4-A4ED-D4685DC3C9AD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7F9E2D48-475A-4B0D-8525-E66C78E2F9BF}" ShortID="702619817">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Armor" ID="{F552AE1E-C5BB-4BA8-91C0-A713ED5C9AD6}" WorkUnitID="{0FBE603A-5A04-4FD4-A4ED-D4685DC3C9AD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="fs_char_rightfoot_run" ID="{47606F53-40FD-4AD5-952E-A6A42FFFC31F}">
+					<ChildrenList>
+						<Action Name="" ID="{C22994D9-1090-471B-9607-30845A8FC0F0}" ShortID="1049874452">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FootstepGrass_run" ID="{5C4FC21E-0D56-47F3-BC1C-BE9E99829E0E}" WorkUnitID="{0FBE603A-5A04-4FD4-A4ED-D4685DC3C9AD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B21FAB0F-C8BF-45AB-A7CF-6C5FA9709E00}" ShortID="887230908">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Armor" ID="{F552AE1E-C5BB-4BA8-91C0-A713ED5C9AD6}" WorkUnitID="{0FBE603A-5A04-4FD4-A4ED-D4685DC3C9AD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="fs_char_leftfoot_walk" ID="{9D04C73A-1D38-450B-9D52-F82F95C181DE}">
+					<ChildrenList>
+						<Action Name="" ID="{3348F215-0A19-4273-A46E-F82095FADC14}" ShortID="62935318">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FootstepGrass_walk" ID="{9ADE328D-D785-4022-B611-AC2E792F35E6}" WorkUnitID="{0FBE603A-5A04-4FD4-A4ED-D4685DC3C9AD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{513761FB-E262-40C4-BE53-035BC0D33BE9}" ShortID="709987921">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Armor" ID="{F552AE1E-C5BB-4BA8-91C0-A713ED5C9AD6}" WorkUnitID="{0FBE603A-5A04-4FD4-A4ED-D4685DC3C9AD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="fs_char_rightfoot_walk" ID="{B65055E4-C13D-4596-8805-BA4343396DA7}">
+					<ChildrenList>
+						<Action Name="" ID="{51255F57-5BD3-4B30-9744-7B69212C55D1}" ShortID="979283738">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FootstepGrass_walk" ID="{9ADE328D-D785-4022-B611-AC2E792F35E6}" WorkUnitID="{0FBE603A-5A04-4FD4-A4ED-D4685DC3C9AD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A36C2FB1-76FC-4972-8001-E04203F9A341}" ShortID="630385068">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Armor" ID="{F552AE1E-C5BB-4BA8-91C0-A713ED5C9AD6}" WorkUnitID="{0FBE603A-5A04-4FD4-A4ED-D4685DC3C9AD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

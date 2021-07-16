@@ -193,7 +193,23 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.5322581
+        functionName: fs_char_walk_left
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: eeb8b40d8968148e9a3f75b3e1b4b31a,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.022580644
+        functionName: fs_char_walk_right
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: eeb8b40d8968148e9a3f75b3e1b4b31a,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1

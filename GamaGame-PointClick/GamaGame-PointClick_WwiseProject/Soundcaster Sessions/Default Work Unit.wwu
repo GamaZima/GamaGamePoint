@@ -6,6 +6,10 @@
 				<SoundcasterSession Name="New Soundcaster Session" ID="{0778BFF5-C536-4D8C-A017-C4696EB1AF77}">
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
+							<GameParameterRef Name="RTPC_SpeedOfCharacter" ID="{7BBA7AC9-A8FE-48B5-B9BF-8841FD10F9F4}"/>
+							<Value>3.5</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Volume" ID="{DF75F578-3DC2-4F7B-ACE2-AF197F00F629}"/>
 							<Value>0</Value>
 						</RTPCValue>
